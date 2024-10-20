@@ -5,18 +5,18 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 3
-display_categories: [research projects, course projects, home projects]
+display_categories: [research projects]
 horizontal: false
 ---
 
-This is a collection of various robotics-based projects I have worked on. If you click a link below, you can find more details about each project. 
+This is a collection of various robotics-based research projects I have worked on. If you click a link below, you can find more details about each project. 
 
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
+  <h2 class="category">Research Projects</h2>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->

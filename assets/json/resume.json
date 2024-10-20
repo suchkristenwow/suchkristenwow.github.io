@@ -1,192 +1,111 @@
 {
   "basics": {
-    "name": "Doncey Albin",
-    "label": "Roboticist",
+    "name": "Kristen Such",
+    "label": "Aspiring Roboticist",
     "image": "",
-    "email": "dynamical{dot}doncey{at}gmail",
-    "phone": "(720) {nine}4{zero} - {four}072",
-    "url": "https://donceyalbin.com/",
-    "summary": "A Denver-born roboticist with major interests in art and science. I believe that robotics can be used to enable a safer, richer, and more easygoing quality of life for humans. My goal is to be on the forefront of that progress.",
+    "email": "kristen.such@colorado.edu",
+    "url": "https://suchkristenwow.github.io/",
+    "summary": "A roboticist with a passion for advancing autonomy in robotics and AI, particularly in environmental and agricultural applications. Focused on long-term data association, collaborative multi-robot systems, and perception-based navigation.",
     "location": {
-      "address": "",
-      "postalCode": "80221",
-      "city": "Denver",
+      "city": "Boulder",
       "countryCode": "US",
       "region": "Colorado"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "suchkristenwow",
+        "url": "https://github.com/suchkristenwow"
       }
     ]
   },
   "work": [
     {
-      "name": "Medronic",
-      "position": "Lead Graduate Robotics Engineering Intern",
-      "url": "https://example.com",
-      "startDate": "2022-01-20",
-      "endDate": "2023-08-13",
-      "summary": "I was assigned to a graduate-level research project sponsored by Medtronic in Spring of 2022. This led to an internal position within their R&D surgical robotics group to lead the project further into funding for production. After demonstrating that the system we designed could work autonomously and would provide practitioners with better ability to treat patients, the project received continued funding. Eventually, after meeting multiple milestones, the project was the first graduate-level project in the history of Medtronic's surgical robotics R&D to go on to receive funding for production.",
-      "highlights": ["Project was the first graduate-based project to be awarded funding to proceed to full production prototype."]
+      "name": "University of Colorado Boulder",
+      "position": "Graduate Research Assistant",
+      "url": "https://www.colorado.edu/",
+      "startDate": "2020-05-01",
+      "endDate": "present",
+      "summary": "Leading research in the Autonomous Robotics and Perception Group, working on projects related to environmental restoration and language-guided robot navigation.",
+      "highlights": [
+        "Developed RestoreBot, a platform for navigating degraded grasslands using Mask RCNN for vegetation and microsite identification.",
+        "Designed the Language-Guided Seeding Interface for intuitive, high-level control of seeding robots using natural language.",
+        "Contributed to decentralized multi-robot SLAM and target tracking systems."
+      ]
+    },
+    {
+      "name": "IBM",
+      "position": "Summer Research Intern - Nanoscale Fabrication Group",
+      "url": "https://www.ibm.com/",
+      "startDate": "2018-06-01",
+      "endDate": "2018-08-01",
+      "summary": "Contributed to the Electronic Nose project, which aimed to train AI models for odor fingerprinting, enhancing modular gas sensors for industrial and medical applications."
     }
   ],
-  // "volunteer": [
-  //   {
-  //     "organization": "People's Climate March",
-  //     "position": "Lead Organizer",
-  //     "url": "https://example.com",
-  //     "startDate": "2014-04-01",
-  //     "endDate": "2015-07-01",
-  //     "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-  //     "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-  //   }
-  // ],
   "education": [
     {
-      "institution": "University of Colorado - Boulder",
-      "location": "Boulder, CO",
-      "url": "https://www.uzh.ch/",
-      "area": "Computer Science - Robotics",
-      "studyType": "MS",
-      "startDate": "2021",
-      "endDate": "2023",
-      "score": "10",
-      "courses": ["State Estimation, Reinforcement Learning, Advanced Robotics, Deep Learning"]
-    },
-    {
-      "institution": "University of Colorado - Boulder",
-      "location": "Boulder, CO",
-      "url": "https://www.uzh.ch/",
-      "area": "ComputerScience - Robotics",
+      "institution": "University of Colorado Boulder",
+      "area": "Robotics",
       "studyType": "PhD",
       "startDate": "2021",
-      "endDate": "",
-      "score": "10",
-      "courses": [""]
+      "endDate": "2024",
+      "summary": "Long-term data association for agricultural applications under the supervision of Christoffer Heckman."
     },
     {
-      "institution": "Colorado State University",
-      "location": "Fort Collins, CO",
-      "url": "https://www.uzh.ch/",
-      "area": "Mechanical Engineering",
+      "institution": "University of Chicago",
+      "area": "Computational and Applied Math",
       "studyType": "BS",
-      "startDate": "2017",
-      "endDate": "2021",
-      "score": "10",
-      "courses": ["Feedback Control Systems","Mechatronics"]
+      "startDate": "2015",
+      "endDate": "2019",
+      "summary": "Graduated with honors, Dean’s List, and UAA All-American."
     }
   ],
-  "awards": [
+  "publications": [
     {
-      "title": "2022 Robotics Science and Systems (RSS) Inclusion Fellow",
-      "date": "2022-06-15",
-      "awarder": "Carnegie Mellon University (CMU)",
-      "url": "https://sites.google.com/andrew.cmu.edu/inclusion-rss-2022/participants",
-      "summary": "From the website - \"The primary goal of the 2022 Inclusion@RSS is to increase the number of new conference participants from groups traditionally underrepresented in robotics.\""
+      "name": "Restorebot: Towards an Autonomous Robotics Platform for Degraded Rangeland Restoration",
+      "publisher": "ISER",
+      "releaseDate": "2023-01",
+      "url": "https://doi.org/10.48550/arXiv.2312.07724",
+      "summary": "Presented at ISER 2023, this paper details the development of Restorebot, a platform designed for navigating and identifying microsites in degraded rangelands."
     },
     {
-      "title": "Top Senior Engineering Research Showcase Project",
-      "date": "2021-05-15",
-      "awarder": "Colorado State University",
-      "url": "https://engr.source.colostate.edu/celebrating-winners-of-the-senior-year-mechanical-engineering-research-competition/",
-      "summary": "The senior research showcase awarded three peojects to be reconized as a top project. The household fire detection, trsacking, and extinguishing robot I developed won third place."
-    }
-  ],
-  // "certificates": [
-  //   {
-  //     "name": "Machine Learning",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-location-dot"
-  //   },
-  //   {
-  //     "name": "Quantum Computing",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-tag"
-  //   }
-  // ],
-  "publications": [
-    // {
-    //   "name": "Zur Elektrody/namik bewegter Körper",
-    //   "publisher": "Annalen der Physik",
-    //   "releaseDate": "1905-06-30",
-    //   "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-    //   "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    // },
-    {
-      "name": "Design, Implementation, and Evaluation of a Semi-Autonomous, Vision-based, Modular Unmanned Ground Vehicle Prototype",
-      "publisher": "Society for Imaging Science and Technology",
-      "releaseDate": "2021-01",
-      "url": "https://library.imaging.org/ei/articles/33/17/art00017",
-      "summary": "This paper presents the development of a prototype modular unmanned ground vehicle (UGV) used for fire detection and elimination. Taking a systems engineering approach, the mechatronics and control systems designs are performed first, then the system and the important subsystems are built and tested, and finally, the evaluation results are fed back for the next prototype iteration."
+      "name": "CogExplore: Contextual Exploration with Language-Encoded Environment Representations",
+      "publisher": "arXiv",
+      "releaseDate": "2024-06",
+      "url": "https://arxiv.org/abs/2406.17180",
+      "summary": "Under review, this paper introduces a framework for language-guided exploration in unmapped environments."
     }
   ],
   "skills": [
     {
       "name": "Robotics",
-      "icon": "fa-solid fa-tag",
       "keywords": [
         "SLAM",
         "State Estimation",
-        "Sensing Technology",
-        "Data Visualization",
-        "Control",
-        "reinforcement learning"
+        "Semantic Image Segmentation",
+        "GNSS Navigation",
+        "Multi-Robot Collaboration"
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker",
-      "icon": ""
     },
     {
-      "language": "Spanish",
-      "fluency": "Learning as much as I can",
-      "icon": ""
+      "name": "Programming Languages",
+      "keywords": [
+        "Python",
+        "C++",
+        "MATLAB",
+        "ROS",
+        "Git"
+      ]
     }
   ],
   "interests": [
     {
-      "name": "Robotics",
-      "icon": "fa-solid fa-tag",
+      "name": "Robotics and AI",
       "keywords": [
-        "SLAM",
-        "State Estimation",
-        "Sensing Technology",
-        "Data Visualization",
-        "Control",
-        "reinforcement learning"
+        "Environmental Robotics",
+        "Precision Agriculture",
+        "Autonomous Vehicles"
       ]
     }
-  ],
-  "references": [
-    {
-      "name": "Christoffer Heckman",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Christoffer (Chris) Heckman is my current PhD adivsor. His is the director of the Autonomous Robotics and Perception Group (ARPG) at CU Boulder."
-    },
-    {
-      "name": "Steven Simske",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Steven Simske was my undergraduate advisor and is a professor in the Department of Systems Engineering at Colorado State University."
-    }
   ]
-  // "projects": [
-  //   {
-  //     "name": "Quantum Computing",
-  //     "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-  //     "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-  //     "startDate": "2018-01-01",
-  //     "endDate": "2018-01-01",
-  //     "url": "https://example.com"
-  //   }
-  // ]
 }
