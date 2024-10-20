@@ -3,19 +3,19 @@ name: Jekyll Site CI
 on:
   push:
     branches:
-      - main  # Change 'main' to your default branch if different
+      - main  # Change this to your default branch if necessary
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v2
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2.2'  # Specify the Ruby version to use
+          ruby-version: '3.2.2'
 
       - name: Install dependencies
         run: |
@@ -30,4 +30,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
-
+          publish_branch: gh-pages  # Specify to create and deploy to gh-pages branch
