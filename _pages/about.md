@@ -6,7 +6,7 @@ subtitle: PhD Student at the University of Colorado Boulder • Autonomous Robot
 
 profile:
   align: right
-  image: kristen_in_field_w_husky.jpg 
+  image: prof_pic.jpg 
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
