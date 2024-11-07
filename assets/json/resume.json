@@ -58,10 +58,7 @@
       "position": "PhD Student",
       "startDate": "2019-08",
       "endDate": "Present",
-      "highlights": [
-        "Studied dynamic networks in active matter, modeling swarm behaviors in fire-ant aggregations.",
-        "Advised by Franck Vernerey."
-      ]
+      "highlights": ["Studied dynamic networks in active matter, modeling swarm behaviors in fire-ant aggregations.", "Advised by Franck Vernerey."]
     },
     {
       "name": "IBM",
@@ -107,19 +104,11 @@
   "skills": [
     {
       "name": "Programming Languages",
-      "keywords": [
-        "Python",
-        "ROS",
-        "MATLAB",
-        "C++"
-      ]
+      "keywords": ["Python", "ROS", "MATLAB", "C++"]
     },
     {
       "name": "Tools",
-      "keywords": [
-        "Git",
-        "Docker"
-      ]
+      "keywords": ["Git", "Docker"]
     },
     {
       "name": "AI and Mathematical Expertise",
@@ -160,23 +149,17 @@
     {
       "name": "Language-Guided Seeding Interface",
       "summary": "Developed algorithms for language-based seeding and navigation.",
-      "highlights": [
-        "Conducted experiments using a custom Unreal Engine simulation interfacing with ROS."
-      ]
+      "highlights": ["Conducted experiments using a custom Unreal Engine simulation interfacing with ROS."]
     },
     {
       "name": "RestoreBot",
       "summary": "Designed a platform for degraded grassland navigation and optimal microsite identification.",
-      "highlights": [
-        "Applied Mask RCNN for field environment vegetation and microsite detection."
-      ]
+      "highlights": ["Applied Mask RCNN for field environment vegetation and microsite detection."]
     },
     {
       "name": "Collaborative Target Tracking",
       "summary": "Implemented a distributed system for decentralized collaboration among heterogeneous robots.",
-      "highlights": [
-        "Enabled efficient multi-robot SLAM and target tracking in dynamic environments."
-      ]
+      "highlights": ["Enabled efficient multi-robot SLAM and target tracking in dynamic environments."]
     }
   ],
   "volunteer": [
@@ -186,18 +169,14 @@
       "location": "St. Vrain Valley School District",
       "startDate": "2019",
       "endDate": "2021",
-      "highlights": [
-        "Refereed VEX Robotics Tournaments for Elementary and Middle School students."
-      ]
+      "highlights": ["Refereed VEX Robotics Tournaments for Elementary and Middle School students."]
     },
     {
       "organization": "ARPG Robotics Summer Camp",
       "location": "St. Vrain Valley School District",
       "startDate": "2021",
       "endDate": "Present",
-      "highlights": [
-        "Led annual lab tours for elementary and middle school students from St. Vrain Valley School District."
-      ]
+      "highlights": ["Led annual lab tours for elementary and middle school students from St. Vrain Valley School District."]
     }
   ]
 }
