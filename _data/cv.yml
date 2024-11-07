@@ -75,16 +75,16 @@
 - title: Skills
   type: list
   skills:
-        - skill: Python
-          level: Expert
-        - skill: ROS
-          level: Expert
-        - skill: MATLAB
-          level: Expert 
-        - skill: Git
-          level: Advanced 
-        -skill: C++
-          level: Intermediate 
+    - skill: Python
+      level: Expert
+    - skill: ROS
+      level: Expert
+    - skill: MATLAB
+      level: Expert
+    - skill: Git
+      level: Advanced
+    - skill: C++
+      level: Intermediate
 
 - title: Languages
   type: list

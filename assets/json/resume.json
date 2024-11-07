@@ -113,7 +113,7 @@
       "name": "Programming Languages/Frameworks",
       "level": "Expert",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Python", "ROS", "MATLAB", "Git","C++"]
+      "keywords": ["Python", "ROS", "MATLAB", "Git", "C++"]
     }
   ],
   "languages": [
