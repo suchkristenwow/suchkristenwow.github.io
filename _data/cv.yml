@@ -73,18 +73,52 @@
       url: <a href="http://dx.doi.org/10.1098/rsif.2021.0213">Paper Link</a>
 
 - title: Skills
-  type: list
+  type: sections
   skills:
-    - skill: Python
-      level: Expert
-    - skill: ROS
-      level: Expert
-    - skill: MATLAB
-      level: Expert
-    - skill: Git
-      level: Advanced
-    - skill: C++
-      level: Intermediate
+    - category: Programming Languages
+      items:
+        - skill: Python
+          level: Expert
+        - skill: ROS
+          level: Expert
+        - skill: MATLAB
+          level: Expert
+        - skill: C++
+          level: Intermediate
+    - category: Tools
+      items:
+        - skill: Git
+          level: Advanced 
+        - skill: Docker
+          level: Intermediate
+    - category: AI and Mathematical Expertise 
+      items:
+        - skill: Bayesian Probability 
+          level: Expert 
+        - skill: Markov Decision Processes 
+          level: Advanced
+        - skill: Numerical Optimization 
+          level: Advanced 
+        - skill: Sequence Modeling 
+          level: Basic
+        - skill: Trajectory Transformers 
+          level: Basic 
+        - skill: Reinforcement Learning 
+          level: Basic 
+        - skill: Linear Algebra 
+          level: Advanced 
+    - category: Robotics 
+      items:
+        - skill: RTK GPS / GNSS-based Navigation
+          level: Expert
+        - skill: Visual, lidar, and Inertial SLAM 
+          level: Expert
+        - skill: Object Detection 
+          level: Expert
+        - skill: Semantic Image Segmentation
+          level: Advanced 
+        - skill: Full-Stak Integration
+          level: Intermediate 
 
 - title: Languages
   type: list
@@ -111,8 +145,13 @@
 - title: Volunteer Experience
   type: time_table
   contents:
-    - title: Vex Head Referee
+    - title: Vex Robotics Head Referee
       organization: St. Vrain Valley School District
       year: 2019 - 2021
       description:
         - Refereed VEX Robotics Tournaments for Elementary and Middle School students.
+    - title: ARPG Robotics Summer Camp 
+      organization: St. Vrain Valley School District
+      year: 2021 - Present 
+      description:
+        - Led annual lab tours for elementary and middle school students from St. Vrain Valley School District 
