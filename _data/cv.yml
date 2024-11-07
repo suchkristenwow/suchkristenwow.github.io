@@ -88,37 +88,37 @@
     - category: Tools
       items:
         - skill: Git
-          level: Advanced 
+          level: Advanced
         - skill: Docker
           level: Intermediate
-    - category: AI and Mathematical Expertise 
+    - category: AI and Mathematical Expertise
       items:
-        - skill: Bayesian Probability 
-          level: Expert 
-        - skill: Markov Decision Processes 
+        - skill: Bayesian Probability
+          level: Expert
+        - skill: Markov Decision Processes
           level: Advanced
-        - skill: Numerical Optimization 
-          level: Advanced 
-        - skill: Sequence Modeling 
+        - skill: Numerical Optimization
+          level: Advanced
+        - skill: Sequence Modeling
           level: Basic
-        - skill: Trajectory Transformers 
-          level: Basic 
-        - skill: Reinforcement Learning 
-          level: Basic 
-        - skill: Linear Algebra 
-          level: Advanced 
-    - category: Robotics 
+        - skill: Trajectory Transformers
+          level: Basic
+        - skill: Reinforcement Learning
+          level: Basic
+        - skill: Linear Algebra
+          level: Advanced
+    - category: Robotics
       items:
         - skill: RTK GPS / GNSS-based Navigation
           level: Expert
-        - skill: Visual, lidar, and Inertial SLAM 
+        - skill: Visual, lidar, and Inertial SLAM
           level: Expert
-        - skill: Object Detection 
+        - skill: Object Detection
           level: Expert
         - skill: Semantic Image Segmentation
-          level: Advanced 
+          level: Advanced
         - skill: Full-Stak Integration
-          level: Intermediate 
+          level: Intermediate
 
 - title: Languages
   type: list
@@ -150,8 +150,8 @@
       year: 2019 - 2021
       description:
         - Refereed VEX Robotics Tournaments for Elementary and Middle School students.
-    - title: ARPG Robotics Summer Camp 
+    - title: ARPG Robotics Summer Camp
       organization: St. Vrain Valley School District
-      year: 2021 - Present 
+      year: 2021 - Present
       description:
-        - Led annual lab tours for elementary and middle school students from St. Vrain Valley School District 
+        - Led annual lab tours for elementary and middle school students from St. Vrain Valley School District
