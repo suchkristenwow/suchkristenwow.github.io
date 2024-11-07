@@ -25,5 +25,4 @@ I've always believed that robots are powerful tools that can help address large-
 ### References
 
 [^1]: J. Yao, et al. "Accelerated dryland expansion regulates future variability in dryland gross primary production." _Nature Communications_, 2020.
-
 [^2]: Food and Agriculture Organization of the United Nations. _Livestock’s Long Shadow – Environmental Issues and Options_. 2006.
