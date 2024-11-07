@@ -23,6 +23,10 @@ The bulk of my thesis work has focused on developing an autonomous robotic platf
 
 I've always believed that robots are powerful tools that can help address large-scale challenges. Degraded rangelands are indeed a significant issue, covering approximately 40% of the global land surface and supporting about 38% of the world’s population[^1]. However, nearly 20% of these rangelands have been degraded[^2] due to climate change and ongoing development.
 
+<div style="text-align: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=9teAIFddnRg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ---
 
 ### References
