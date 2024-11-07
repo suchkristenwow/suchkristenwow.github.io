@@ -110,10 +110,10 @@
   ],
   "skills": [
     {
-      "name": "Programming Languages",
+      "name": "Programming Languages/Frameworks",
       "level": "Expert",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Python", "ROS", "MATLAB", "Git"]
+      "keywords": ["Python", "ROS", "MATLAB", "Git","C++"]
     }
   ],
   "languages": [
