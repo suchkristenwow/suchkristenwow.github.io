@@ -23,7 +23,7 @@
       "studyType": "M.S.",
       "startDate": "2019-08",
       "endDate": "2022-05",
-      "score": "GPA: 3.429"
+      "score": "3.429"
     },
     {
       "institution": "University of Chicago",
@@ -32,7 +32,7 @@
       "studyType": "B.S.",
       "startDate": "2015-09",
       "endDate": "2019-06",
-      "score": "GPA: 3.157"
+      "score": "3.157"
     }
   ],
   "work": [
@@ -107,7 +107,6 @@
   "skills": [
     {
       "name": "Programming Languages",
-      "level": "Expert",
       "keywords": [
         "Python",
         "ROS",
@@ -117,7 +116,6 @@
     },
     {
       "name": "Tools",
-      "level": "Advanced",
       "keywords": [
         "Git",
         "Docker"
@@ -125,7 +123,6 @@
     },
     {
       "name": "AI and Mathematical Expertise",
-      "level": "Advanced",
       "keywords": [
         "Bayesian Probability",
         "Markov Decision Processes",
@@ -138,7 +135,6 @@
     },
     {
       "name": "Robotics",
-      "level": "Expert",
       "keywords": [
         "RTK GPS / GNSS-based Navigation",
         "Visual, lidar, and Inertial SLAM",
@@ -151,11 +147,13 @@
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": "Native speaker",
+      "icon": ""
     },
     {
       "language": "French",
-      "fluency": "CEFR A2"
+      "fluency": "CEFR A2",
+      "icon": ""
     }
   ],
   "projects": [
