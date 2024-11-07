@@ -18,9 +18,9 @@ I am currently wrapping up my PhD at the University of Colorado Boulder under th
 
 The bulk of my thesis work has focused on developing an autonomous robotic platform to **revegetate degraded rangelands**.
 
-I've always believed that robots are powerful tools that can help address large-scale challenges. Degraded rangelands are indeed a significant issue, covering approximately 40% of the global land surface and supporting about 38% of the world’s population[^1]. However, nearly 20% of these rangelands have been degraded[^2] due to climate change and ongoing development.
+I've always believed that robots are powerful tools that can help address large-scale challenges. Degraded rangelands are indeed a significant issue, covering approximately 40% of the global land surface and supporting about 38% of the world’s population[^1]. However, nearly 20% of these rangelands have been degraded[^2] due to climate change and ongoing development. Hopefully my work can help do something about that! 
 
-### Watch My Research in Action
+### Watch Restorebot in Action
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9teAIFddnRg?si=TdxbUTUGkxuU9SwT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
