@@ -29,17 +29,13 @@
         "title": "M.S. in Mechanical Engineering",
         "institution": "University of Colorado Boulder, Boulder, CO",
         "year": "2022-05 - 2019-08",
-        "description": [
-          "GPA: 3.429"
-        ]
+        "description": ["GPA: 3.429"]
       },
       {
         "title": "B.S. in Computational and Applied Math",
         "institution": "University of Chicago, Chicago, IL",
         "year": "2015-09 - 2019-06",
-        "description": [
-          "GPA: 3.157"
-        ]
+        "description": ["GPA: 3.157"]
       }
     ]
   },
@@ -260,17 +256,13 @@
         "title": "Vex Robotics Head Referee",
         "organization": "St. Vrain Valley School District",
         "year": "2019 - 2021",
-        "description": [
-          "Refereed VEX Robotics Tournaments for Elementary and Middle School students."
-        ]
+        "description": ["Refereed VEX Robotics Tournaments for Elementary and Middle School students."]
       },
       {
         "title": "ARPG Robotics Summer Camp",
         "organization": "St. Vrain Valley School District",
         "year": "2021 - Present",
-        "description": [
-          "Led annual lab tours for elementary and middle school students from St. Vrain Valley School District."
-        ]
+        "description": ["Led annual lab tours for elementary and middle school students from St. Vrain Valley School District."]
       }
     ]
   }
