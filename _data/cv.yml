@@ -59,7 +59,7 @@
 - title: Publications
   type: time_table
   contents:
-    - title: Restorebot: Towards an Autonomous Robotics Platform for Degraded Rangeland Restoration
+    - title: Towards an Autonomous Robotics Platform for Degraded Rangeland Restoration
       publisher: Proceedings of the 18th International Symposium on Experimental Robotics (ISER 2023)
       year: 2023-12
       url: <a href="https://arxiv.org/abs/2312.07724">Paper Link</a>
