@@ -22,7 +22,7 @@
       institution: University of Chicago, Chicago, IL
       year: 2015-09 - 2019-06
       description:
-        - GPA: 3.157
+        - GPA: "3.157"
 
 - title: Experience
   type: time_table
@@ -73,52 +73,30 @@
       url: <a href="http://dx.doi.org/10.1098/rsif.2021.0213">Paper Link</a>
 
 - title: Skills
-  type: sections
-  skills:
-    - category: Programming Languages
-      items:
-        - skill: Python
-          level: Expert
-        - skill: ROS
-          level: Expert
-        - skill: MATLAB
-          level: Expert
-        - skill: C++
-          level: Intermediate
-    - category: Tools
-      items:
-        - skill: Git
-          level: Advanced
-        - skill: Docker
-          level: Intermediate
-    - category: AI and Mathematical Expertise
-      items:
-        - skill: Bayesian Probability
-          level: Expert
-        - skill: Markov Decision Processes
-          level: Advanced
-        - skill: Numerical Optimization
-          level: Advanced
-        - skill: Sequence Modeling
-          level: Basic
-        - skill: Trajectory Transformers
-          level: Basic
-        - skill: Reinforcement Learning
-          level: Basic
-        - skill: Linear Algebra
-          level: Advanced
-    - category: Robotics
-      items:
-        - skill: RTK GPS / GNSS-based Navigation
-          level: Expert
-        - skill: Visual, lidar, and Inertial SLAM
-          level: Expert
-        - skill: Object Detection
-          level: Expert
-        - skill: Semantic Image Segmentation
-          level: Advanced
-        - skill: Full-Stak Integration
-          level: Intermediate
+  type: list
+  contents:
+    - Programming Languages:
+        - Python (Expert)
+        - ROS (Expert)
+        - MATLAB (Expert)
+        - C++ (Intermediate)
+    - Tools:
+        - Git (Advanced)
+        - Docker (Intermediate)
+    - AI and Mathematical Expertise:
+        - Bayesian Probability (Expert)
+        - Markov Decision Processes (Advanced)
+        - Numerical Optimization (Advanced)
+        - Sequence Modeling (Basic)
+        - Trajectory Transformers (Basic)
+        - Reinforcement Learning (Basic)
+        - Linear Algebra (Advanced)
+    - Robotics:
+        - RTK GPS / GNSS-based Navigation (Expert)
+        - Visual, lidar, and Inertial SLAM (Expert)
+        - Object Detection (Expert)
+        - Semantic Image Segmentation (Advanced)
+        - Full-Stack Integration (Intermediate)
 
 - title: Languages
   type: list
