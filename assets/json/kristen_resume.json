@@ -105,12 +105,12 @@
     {
       "name": "Programming Languages",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Python (Expert)", "ROS (Expert)", "MATLAB (Expert)", "C++ (Intermediate)"] 
+      "keywords": ["Python (Expert)", "ROS (Expert)", "MATLAB (Expert)", "C++ (Intermediate)"]
     },
     {
       "name": "Tools",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Git (Intermediate)", "Docker (Intermediate)"]  
+      "keywords": ["Git (Intermediate)", "Docker (Intermediate)"]
     },
     {
       "name": "AI and Mathematical Expertise",
@@ -136,16 +136,16 @@
         "Full-Stack Integration (Intermediate)"
       ]
     }
-  ], 
+  ],
   "languages": [
     {
       "language": "English",
       "fluency": "Native speaker",
-      "icon": "" 
+      "icon": ""
     },
     {
       "language": "French",
-      "fluency": "CEFR A2", 
+      "fluency": "CEFR A2",
       "icon": ""
     }
   ],
