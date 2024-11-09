@@ -23,7 +23,7 @@
       "studyType": "M.S.",
       "startDate": "2019-08",
       "endDate": "2022-05",
-      "gpa": "3.43"
+      "score": "3.43"
     },
     {
       "institution": "University of Chicago",
@@ -32,7 +32,7 @@
       "studyType": "B.S.",
       "startDate": "2015-09",
       "endDate": "2019-06",
-      "gpa": "3.16"
+      "score": "3.16"
     }
   ],
   "work": [
@@ -103,15 +103,18 @@
   ],
   "skills": [
     {
-      "category": "Programming Languages",
-      "keywords": ["Python (Expert)", "ROS (Expert)", "MATLAB (Expert)", "C++ (Intermediate)"]
+      "name": "Programming Languages",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["Python (Expert)", "ROS (Expert)", "MATLAB (Expert)", "C++ (Intermediate)"] 
     },
     {
-      "category": "Tools",
-      "keywords": ["Git (Advanced)", "Docker (Intermediate)"]
+      "name": "Tools",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["Git (Intermediate)", "Docker (Intermediate)"]  
     },
     {
-      "category": "AI and Mathematical Expertise",
+      "name": "AI and Mathematical Expertise",
+      "icon": "fa-solid fa-hashtag",
       "keywords": [
         "Bayesian Probability (Expert)",
         "Markov Decision Processes (Advanced)",
@@ -123,7 +126,8 @@
       ]
     },
     {
-      "category": "Robotics",
+      "name": "Robotics",
+      "icon": "fa-solid fa-hashtag",
       "keywords": [
         "RTK GPS / GNSS-based Navigation (Expert)",
         "Visual, lidar, and Inertial SLAM (Expert)",
@@ -132,15 +136,17 @@
         "Full-Stack Integration (Intermediate)"
       ]
     }
-  ],
+  ], 
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": "Native speaker",
+      "icon": "" 
     },
     {
       "language": "French",
-      "fluency": "CEFR A2"
+      "fluency": "CEFR A2", 
+      "icon": ""
     }
   ],
   "projects": [
