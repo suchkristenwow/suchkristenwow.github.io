@@ -5,6 +5,7 @@ description: An Autonomous Robotic System for Degraded Rangeland Restoration
 img: assets/img/husky.jpg
 importance: 1
 category: work
+permalink: /projects/restorebot/ 
 ---
 
 <div class="row">
@@ -24,6 +25,14 @@ category: work
 Dry-land ecosystems make up 40 percent of the global land surface and support nearly one-sixth of the world’s population. Restorebot aims to develop robotics systems capable of restoring degraded rangelands. We aim to have a robot independently identify sites of interest for restoration with shared autonomy capable of ingesting human knowledge to assist in site selection. In addition to learning more about restoration in these environments, we are also targeting seeding native grass species and placing Connectivity Modifiers or ConMods to help increase germination. Read more about ConMods [**here**](https://www.nps.gov/articles/cany-conmods.htm)
 
 ## Our Platform
+
+<figure class="video-container">
+    <video width="640" height="360" controls>
+        <source src="{{ site.baseurl }}/assets/video/restorebot.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <figcaption>Thanks to my labmate Drew Beathard for sharing this hype video showing off Restorebot and in particular, his contributions to the sand-proof case and hardware.</figcaption>
+</figure>
 
 We utilize a Clearpath Husky A200 (Restorebot) with the following sensors; Ouster OS1-64 LiDAR (Light Detection and Ranging), a LORD Microstrain 3DM-GX5-15 VRU, a Trimble BX922 GPS with a Trimble AG25 antenna with 5cm RTK/RTX corrections, Intel RealSense D435 cameras, and Gig-E cameras. In May 2022 we only used one forward-facing D435 and one downward-facing Intel RealSense D435 camera. In November 2022 we modified the camera setup to include three outward-facing Gig-E cameras in combination with two downward-facing RealSense D435 cameras. All onboard processing is handled by a 32-core AMD Ryzen 3990x and a GTX 1650. The initial result of data collection and immediate post-processing yields cm-level accurate GPS localization, lidar-inertial localization results (as well as the point clouds and inertial measurements themselves), a 15cm-voxel Octomap of the plots, point clouds, and stereo pairs of images both of the robot’s immediate vicinity (roughly 225 degrees for the November 2022 data, and roughly 90 degrees for the May 2022 data) as well as the area in between the robot’s drive train.
 

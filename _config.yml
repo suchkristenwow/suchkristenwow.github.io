@@ -185,7 +185,7 @@ collections:
     output: false
     permalink: /:collection/:title/
   projects:
-    output: false
+    output: true 
     permalink: /:collection/:title/
 
 # -----------------------------------------------------------------------------
@@ -230,6 +230,7 @@ exclude:
 keep_files:
   - CNAME
   - .nojekyll
+  - assets/video/
 
 # Plug-ins
 plugins:
@@ -417,7 +418,7 @@ enable_navbar_social: false # enables displaying social links in the navbar on t
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
-enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
+enable_video_embedding: true # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
 
 # -----------------------------------------------------------------------------
 # Library versions
@@ -612,7 +613,7 @@ third_party_libraries:
 
 jekyll_get_json:
   - data: resume
-  - json: assets/json/resume.json # it can also be an url
+    json: assets/json/resume.json # it can also be an url
 
 jsonresume:
   - basics

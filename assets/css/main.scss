@@ -23,3 +23,24 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+
+.video-container {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.video-container video {
+  display: block;
+  margin: 0 auto;
+}
+
+.video-container figcaption {
+  font-size: 0.9em;
+  color: #555;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px; /* Add more space under the caption */
+}
