@@ -23,7 +23,7 @@
       "studyType": "M.S.",
       "startDate": "2019-08",
       "endDate": "2022-05",
-      "score": "3.429"
+      "gpa": "3.43"
     },
     {
       "institution": "University of Chicago",
@@ -32,7 +32,7 @@
       "studyType": "B.S.",
       "startDate": "2015-09",
       "endDate": "2019-06",
-      "score": "3.157"
+      "gpa": "3.16"
     }
   ],
   "work": [
@@ -58,7 +58,10 @@
       "position": "PhD Student",
       "startDate": "2019-08",
       "endDate": "Present",
-      "highlights": ["Studied dynamic networks in active matter, modeling swarm behaviors in fire-ant aggregations.", "Advised by Franck Vernerey."]
+      "highlights": [
+        "Studied dynamic networks in active matter, modeling swarm behaviors in fire-ant aggregations.",
+        "Advised by Franck Vernerey."
+      ]
     },
     {
       "name": "IBM",
@@ -103,46 +106,44 @@
   ],
   "skills": [
     {
-      "name": "Programming Languages",
-      "keywords": ["Python", "ROS", "MATLAB", "C++"]
+      "category": "Programming Languages",
+      "keywords": ["Python (Expert)", "ROS (Expert)", "MATLAB (Expert)", "C++ (Intermediate)"]
     },
     {
-      "name": "Tools",
-      "keywords": ["Git", "Docker"]
+      "category": "Tools",
+      "keywords": ["Git (Advanced)", "Docker (Intermediate)"]
     },
     {
-      "name": "AI and Mathematical Expertise",
+      "category": "AI and Mathematical Expertise",
       "keywords": [
-        "Bayesian Probability",
-        "Markov Decision Processes",
-        "Numerical Optimization",
-        "Sequence Modeling",
-        "Trajectory Transformers",
-        "Reinforcement Learning",
-        "Linear Algebra"
+        "Bayesian Probability (Expert)",
+        "Markov Decision Processes (Advanced)",
+        "Numerical Optimization (Advanced)",
+        "Sequence Modeling (Basic)",
+        "Trajectory Transformers (Basic)",
+        "Reinforcement Learning (Basic)",
+        "Linear Algebra (Advanced)"
       ]
     },
     {
-      "name": "Robotics",
+      "category": "Robotics",
       "keywords": [
-        "RTK GPS / GNSS-based Navigation",
-        "Visual, lidar, and Inertial SLAM",
-        "Object Detection",
-        "Semantic Image Segmentation",
-        "Full-Stack Integration"
+        "RTK GPS / GNSS-based Navigation (Expert)",
+        "Visual, lidar, and Inertial SLAM (Expert)",
+        "Object Detection (Expert)",
+        "Semantic Image Segmentation (Advanced)",
+        "Full-Stack Integration (Intermediate)"
       ]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker",
-      "icon": ""
+      "fluency": "Native speaker"
     },
     {
       "language": "French",
-      "fluency": "CEFR A2",
-      "icon": ""
+      "fluency": "CEFR A2"
     }
   ],
   "projects": [
