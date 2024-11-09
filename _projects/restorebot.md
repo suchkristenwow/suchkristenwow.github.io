@@ -28,10 +28,10 @@ Dry-land ecosystems make up 40 percent of the global land surface and support ne
 
 <figure class="video-container">
     <video width="640" height="360" controls>
-        <source src="../assets/video/restorebot.mp4" type="video/mp4">
+        <source src="/assets/video/restorebot.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-    <figcaption>Thanks to my labmate Drew Beathard for sharing this hype video showing off Restorebot and in particular, his contributions to the sand-proof case and hardware.</figcaption>
+    <figcaption>Thanks to my labmate Drew Beathard for sharing this hype video showing off Restorebot and in particular, his contributions to the sand-proof case and other hardware features.</figcaption>
 </figure>
 
 We utilize a Clearpath Husky A200 (Restorebot) with the following sensors; Ouster OS1-64 LiDAR (Light Detection and Ranging), a LORD Microstrain 3DM-GX5-15 VRU, a Trimble BX922 GPS with a Trimble AG25 antenna with 5cm RTK/RTX corrections, Intel RealSense D435 cameras, and Gig-E cameras. In May 2022 we only used one forward-facing D435 and one downward-facing Intel RealSense D435 camera. In November 2022 we modified the camera setup to include three outward-facing Gig-E cameras in combination with two downward-facing RealSense D435 cameras. All onboard processing is handled by a 32-core AMD Ryzen 3990x and a GTX 1650. The initial result of data collection and immediate post-processing yields cm-level accurate GPS localization, lidar-inertial localization results (as well as the point clouds and inertial measurements themselves), a 15cm-voxel Octomap of the plots, point clouds, and stereo pairs of images both of the robot’s immediate vicinity (roughly 225 degrees for the November 2022 data, and roughly 90 degrees for the May 2022 data) as well as the area in between the robot’s drive train.
