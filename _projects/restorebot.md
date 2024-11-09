@@ -5,7 +5,7 @@ description: An Autonomous Robotic System for Degraded Rangeland Restoration
 img: assets/img/husky.jpg
 importance: 1
 category: work
-permalink: /projects/restorebot/ 
+permalink: /projects/restorebot/
 ---
 
 <div class="row">
