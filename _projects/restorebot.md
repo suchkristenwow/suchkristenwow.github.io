@@ -5,7 +5,7 @@ description: An Autonomous Robotic System for Degraded Rangeland Restoration
 img: assets/img/husky.jpg
 importance: 1
 category: work
-permalink: /projects/restorebot/
+permalink: /projects/restorebot/ 
 ---
 
 <div class="row">
@@ -28,7 +28,7 @@ Dry-land ecosystems make up 40 percent of the global land surface and support ne
 
 <figure class="video-container">
     <video width="640" height="360" controls>
-        <source src="{{ site.baseurl }}/assets/video/restorebot.mp4" type="video/mp4">
+        <source src="../assets/video/restorebot.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
     <figcaption>Thanks to my labmate Drew Beathard for sharing this hype video showing off Restorebot and in particular, his contributions to the sand-proof case and hardware.</figcaption>
