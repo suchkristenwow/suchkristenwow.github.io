@@ -1,0 +1,48 @@
+@use "sass:color";
+
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Dimensions
+$max-content-width: {{ site.max_width }};
+
+@import
+  "variables",
+  "themes",
+  "layout",
+  "base",
+  "distill",
+  "cv",
+  "tabs",
+  "typograms",
+  "font-awesome/fontawesome",
+  "font-awesome/brands",
+  "font-awesome/solid",
+  "font-awesome/regular",
+  "tabler-icons/tabler-icons.scss",
+  "tabler-icons/tabler-icons-filled.scss",
+  "tabler-icons/tabler-icons-outline.scss"
+;
+
+
+.video-container {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.video-container video {
+  display: block;
+  margin: 0 auto;
+}
+
+.video-container figcaption {
+  font-size: 0.9em;
+  color: #555;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px; /* Add more space under the caption */
+}
