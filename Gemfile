@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 
+gem 'jekyll-sass-converter', '~> 3.0'
+
 # Core plugins that directly affect site building
 group :jekyll_plugins do
     gem 'jekyll-archives-v2'
