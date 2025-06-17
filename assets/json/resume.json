@@ -1,10 +1,9 @@
 {
   "basics": {
     "name": "Kristen Such",
-    "label": "PhD Student",
     "location": {
-      "city": "Boulder",
-      "region": "Colorado",
+      "city": "Columbus",
+      "region": "Ohio",
       "countryCode": "US"
     },
     "profiles": [
@@ -45,6 +44,16 @@
     }
   ],
   "work": [
+    {
+      "name": "Cockram Construction",
+      "position": "Project Automation Engineer",
+      "startDate": "2025-05",
+      "endDate": "Present",
+      "highlights": [
+      "Contracted through Cockram Construction as an Automation Project Engineer supporting Amgen’s facilities and automation initiatives.",
+      "Initial focus areas include the commissioning and installation of an Automated Retained Samples Management System, AGV systems, and ASRS redundancy upgrades."
+    ]
+    },
     {
       "name": "University of Colorado Boulder - Autonomous Robotics and Perception Group",
       "position": "PhD Student",
@@ -111,7 +120,7 @@
     },
     {
       "name": "Treadmilling and dynamic protrusions in fire ant rafts",
-      "publisher": "The Royal Society",
+      "publisher": "The Royal Society Interface",
       "releaseDate": "2021-06",
       "url": "http://dx.doi.org/10.1098/rsif.2021.0213"
     }
