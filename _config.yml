@@ -153,6 +153,7 @@ collections:
     output: true
   projects:
     output: true
+    permalink: /projects/:path/ 
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -194,9 +195,12 @@ exclude:
   - readme_preview/
   - vendor
   - _pages/repositories.md 
-  - _pages/people.md 
   - _pages/dropdown.md 
+  - _pages/profiles.md 
   - _projects/ex_projects/
+  - _pages/blog.md
+  - _site/blog/
+
 keep_files:
   - CNAME
   - .nojekyll
