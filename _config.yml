@@ -4,8 +4,8 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Kristen
-middle_name: 
-last_name: Such 
+middle_name:
+last_name: Such
 
 #contact_note: >
 #  You can even add a little note about which of these is the best way to reach you.
@@ -50,7 +50,7 @@ repo_trophies:
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: false 
+search_enabled: false
 socials_in_search: true
 posts_in_search: true
 bib_search: true
@@ -153,7 +153,7 @@ collections:
     output: true
   projects:
     output: true
-    permalink: /projects/:path/ 
+    permalink: /projects/:path/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -194,9 +194,9 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
-  - _pages/repositories.md 
-  - _pages/dropdown.md 
-  - _pages/profiles.md 
+  - _pages/repositories.md
+  - _pages/dropdown.md
+  - _pages/profiles.md
   - _projects/ex_projects/
   - _pages/blog.md
   - _site/blog/

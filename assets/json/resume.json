@@ -50,9 +50,9 @@
       "startDate": "2025-05",
       "endDate": "Present",
       "highlights": [
-      "Contracted through Cockram Construction as an Automation Project Engineer supporting Amgen’s facilities and automation initiatives.",
-      "Initial focus areas include the commissioning and installation of an Automated Retained Samples Management System, AGV systems, and ASRS redundancy upgrades."
-    ]
+        "Contracted through Cockram Construction as an Automation Project Engineer supporting Amgen’s facilities and automation initiatives.",
+        "Initial focus areas include the commissioning and installation of an Automated Retained Samples Management System, AGV systems, and ASRS redundancy upgrades."
+      ]
     },
     {
       "name": "University of Colorado Boulder - Autonomous Robotics and Perception Group",
@@ -60,13 +60,13 @@
       "startDate": "2020-05",
       "endDate": "2025-03",
       "summary": "Researching autonomous robotic systems for revegetation of degraded rangelands.",
-      "highlights":[
-        "Led development and field testing of an autonomous ground robot for precision seeding in degraded rangelands, integrating navigation, vision, and control in complex, unstructured environments.", 
-      "Designed and implemented a Bayesian feature association and localization framework enabling long-term, robust place recognition with time-varying observations (e.g., seasonal vegetation changes).",
-      "Validated the approach in urban environments using CARLA, an Unreal Engine-based high-fidelity self-driving car simulator, in addition to a low-fidelity 2D simulation with a noisy sensor model resulting in a 56% reduction in mean squared error in the landmark position estimation as well as increased robustness to incorrect data association.",
-      "Extended prior work with LLMs to ecological intervention tasks, developed detection and navigation methods for out-of-distibution objects.",
-      "Conducted decentralized mult-robot SLAM and object tracking experiments using two Clearpath Husky robots using different SLAM methods (lidar-inertial and stereo-inertial)",
-      "Demonstrated effective collaboration between heterogeneous estimation algorithms, leveraging factor graphs for efficient data sharing and scability."
+      "highlights": [
+        "Led development and field testing of an autonomous ground robot for precision seeding in degraded rangelands, integrating navigation, vision, and control in complex, unstructured environments.",
+        "Designed and implemented a Bayesian feature association and localization framework enabling long-term, robust place recognition with time-varying observations (e.g., seasonal vegetation changes).",
+        "Validated the approach in urban environments using CARLA, an Unreal Engine-based high-fidelity self-driving car simulator, in addition to a low-fidelity 2D simulation with a noisy sensor model resulting in a 56% reduction in mean squared error in the landmark position estimation as well as increased robustness to incorrect data association.",
+        "Extended prior work with LLMs to ecological intervention tasks, developed detection and navigation methods for out-of-distibution objects.",
+        "Conducted decentralized mult-robot SLAM and object tracking experiments using two Clearpath Husky robots using different SLAM methods (lidar-inertial and stereo-inertial)",
+        "Demonstrated effective collaboration between heterogeneous estimation algorithms, leveraging factor graphs for efficient data sharing and scability."
       ]
     },
     {

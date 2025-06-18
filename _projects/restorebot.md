@@ -48,7 +48,8 @@ See our plots [**here**](https://www.google.com/maps/d/u/0/edit?hl=en&mid=10_fBH
 
 Restorebot has evolved over the course of our deployments as we have experimented with sensor configurations and improved our platform. In November 2021, we have sparse RTK GPS data, IMU data, point clouds, forward-facing and downward facing images. For May and November 2022 we have extremely high fidelity GPS data, IMU data, point clouds, forward-facing and downward facing images. These data help us to localize the robot as well as objects in its environment in the GPS coordinate frame, in some cases down to the centimeter level, allowing us to better associate plant outcomes over multiple seasons. By localizing the robot, we can attribute features in the environment as well as individual plants to a very precise GPS location, allowing us to make conclusions about plant outcomes.
 
-## Dataset 
+## Dataset
+
 As of May 2025, we've made our data availble to the public! Check out the data and some accompanying tools [**here**](https://arpg.github.io/canyonlands_dataset/)
 
 Publication pending.
