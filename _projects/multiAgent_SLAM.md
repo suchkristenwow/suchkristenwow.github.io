@@ -7,6 +7,7 @@ importance: 3
 category: Thesis Work
 permalink: /projects/heterogeneous-slam/
 ---
+
 ## Project Motivation
 
 In multi-robot systems, collaborating agents are often heterogeneous—differing in sensors, mobility, or onboard computation. However, standard SLAM frameworks typically assume homogeneous agents and fixed environments. This project explores how multiple different robots can jointly perform SLAM while also tracking dynamic and semi-static features in a shared map.
@@ -42,6 +43,6 @@ My contribution was implementing the experiments using 2 of our Husky platforms 
 ## Publication
 
 **Joint Persistence Filtering for Heterogeneous Multi-Robot SLAM in Semi-Static Environments**  
-Ofer Dagan, Tycho L. Cinquini, Luke Morrissey, Kristen Such, Nisar R. Ahmed, Christoffer Heckman 
-*arXiv preprint (2023)*  
+Ofer Dagan, Tycho L. Cinquini, Luke Morrissey, Kristen Such, Nisar R. Ahmed, Christoffer Heckman
+_ICRA 2023 workshop on "Distributed Graph Algorithms for Robotics"_  
 [Read on arXiv](https://arxiv.org/abs/2306.04570)
