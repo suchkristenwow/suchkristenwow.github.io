@@ -414,7 +414,17 @@ ninja.data = [{
           section: "News",},{id: "news-i-ve-defended-my-thesis-check-out-my-slide-deck-here-or-read-my-dissertation-here",
           title: 'I’ve defended my thesis! Check out my slide deck here Or read my...',
           description: "",
-          section: "News",},{id: "projects-restorebot",
+          section: "News",},{id: "projects-betterfaster-slam",
+          title: 'BetterFaster SLAM',
+          description: "Tracking Semi-Static Landmarks with Joint Persistence Filtering",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/betterfaster/";
+            },},{id: "projects-heterogeneous-slam",
+          title: 'Heterogeneous SLAM',
+          description: "Multi-Robot Mapping and Tracking Using Joint Persistence Across Robot Types",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/heterogeneous-slam/";
+            },},{id: "projects-restorebot",
           title: 'Restorebot',
           description: "An Autonomous Robotic System for Degraded Rangeland Restoration",
           section: "Projects",handler: () => {
