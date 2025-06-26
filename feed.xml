@@ -1,748 +1,159 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://alshedivat.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://alshedivat.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-06-26T13:54:45+00:00</updated><id>https://alshedivat.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">a post with plotly.js</title><link href="https://alshedivat.github.io/blog/2025/plotly/" rel="alternate" type="text/html" title="a post with plotly.js"/><published>2025-03-26T14:24:00+00:00</published><updated>2025-03-26T14:24:00+00:00</updated><id>https://alshedivat.github.io/blog/2025/plotly</id><content type="html" xml:base="https://alshedivat.github.io/blog/2025/plotly/"><![CDATA[<p>This is an example post with some <a href="https://plotly.com/javascript/">plotly</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">plotly
-</span><span class="sb">{
-  "data": [
-    {
-      "x": [1, 2, 3, 4],
-      "y": [10, 15, 13, 17],
-      "type": "scatter"
-    },
-    {
-      "x": [1, 2, 3, 4],
-      "y": [16, 5, 11, 9],
-      "type": "scatter"
-    }
-  ]
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-plotly">{
-  "data": [
-    {
-      "x": [1, 2, 3, 4],
-      "y": [10, 15, 13, 17],
-      "type": "scatter"
-    },
-    {
-      "x": [1, 2, 3, 4],
-      "y": [16, 5, 11, 9],
-      "type": "scatter"
-    }
-  ]
-}
-</code></pre> <p>Also another example chart.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">plotly
-</span><span class="sb">{
-  "data": [
-    {
-      "x": [1, 2, 3, 4],
-      "y": [10, 15, 13, 17],
-      "mode": "markers"
-    },
-    {
-      "x": [2, 3, 4, 5],
-      "y": [16, 5, 11, 9],
-      "mode": "lines"
-    },
-    {
-      "x": [1, 2, 3, 4],
-      "y": [12, 9, 15, 12],
-      "mode": "lines+markers"
-    }
-  ],
-  "layout": {
-    "title": {
-      "text": "Line and Scatter Plot"
-    }
-  }
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>This is how it looks like:</p> <pre><code class="language-plotly">{
-  "data": [
-    {
-      "x": [1, 2, 3, 4],
-      "y": [10, 15, 13, 17],
-      "mode": "markers"
-    },
-    {
-      "x": [2, 3, 4, 5],
-      "y": [16, 5, 11, 9],
-      "mode": "lines"
-    },
-    {
-      "x": [1, 2, 3, 4],
-      "y": [12, 9, 15, 12],
-      "mode": "lines+markers"
-    }
-  ],
-  "layout": {
-    "title": {
-      "text": "Line and Scatter Plot"
-    }
-  }
-}
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[this is what included plotly.js code could look like]]></summary></entry><entry><title type="html">a post with image galleries</title><link href="https://alshedivat.github.io/blog/2024/photo-gallery/" rel="alternate" type="text/html" title="a post with image galleries"/><published>2024-12-04T01:59:00+00:00</published><updated>2024-12-04T01:59:00+00:00</updated><id>https://alshedivat.github.io/blog/2024/photo-gallery</id><content type="html" xml:base="https://alshedivat.github.io/blog/2024/photo-gallery/"><![CDATA[<p>The images in this post are all zoomable, arranged into different mini-galleries using different libraries.</p> <h2 id="lightbox2"><a href="https://lokeshdhakar.com/projects/lightbox2/">Lightbox2</a></h2> <p><a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"/></a> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"/></a> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"/></a></p> <hr/> <h2 id="photoswipe"><a href="https://photoswipe.com/">PhotoSwipe</a></h2> <div class="pswp-gallery pswp-gallery--single-column" id="gallery--getting-started"> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" data-pswp-width="1669" data-pswp-height="2500" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" alt=""/> </a> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-2500.jpg" data-pswp-width="1875" data-pswp-height="2500" data-cropped="true" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-200.jpg" alt=""/> </a> <a href="https://unsplash.com" data-pswp-src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg" data-pswp-width="2500" data-pswp-height="1666" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt=""/> </a> <div> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-2500.jpg" data-pswp-width="2500" data-pswp-height="1667" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-200.jpg" alt=""/> </a> </div> </div> <hr/> <h2 id="spotlight-js"><a href="https://nextapps-de.github.io/spotlight/">Spotlight JS</a></h2> <div class="spotlight-group"> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"/> </a> </div> <div class="spotlight-group"> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/4/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/4/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/5/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/5/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-200.jpg"/> </a> </div> <hr/> <h2 id="venobox"><a href="https://veno.es/venobox/">Venobox</a></h2> <p><a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"/></a> <a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"/></a> <a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"/></a></p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="images"/><summary type="html"><![CDATA[this is what included image galleries could look like]]></summary></entry><entry><title type="html">Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra</title><link href="https://alshedivat.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/" rel="alternate" type="text/html" title="Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra"/><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>https://alshedivat.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra</id><content type="html" xml:base="https://alshedivat.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/"><![CDATA[<p>May 14, 2024 We’re introducing a series of updates across the Gemini family of models, including the new 1.5 Flash, our lightweight model for speed and efficiency, and Project Astra, our vision for the future of AI assistants. In December, we launched our first natively multimodal model Gemini 1.0 in three sizes: Ultra, Pro and Nano. Just a few months later we released 1.5 Pro, with enhanced performance and a breakthrough long context window of 1 million tokens.Developers and enterprise customers have been putting 1.5 Pro to use in incredible ways and finding its long context window, multimodal reasoning capabilities and impressive overall performance incredibly useful.We know from user feedback that some applications need lower latency and a lower cost to serve. This inspired us to keep innovating, so today, we’re introducing Gemini 1.5 Flash: a model that’s lighter-weight than 1.5 Pro, and designed to be fast and efficient to serve at scale.Both 1.5 Pro and 1.5 Flash are available in public preview with a 1 million token context window in Google AI Studio and Vertex AI. And now, 1.5 Pro is also available with a 2 million token context window via waitlist to developers using the API and to Google Cloud customers.We’re also introducing updates across the Gemini family of models, announcing our next generation of open models, Gemma 2, and sharing progress on the future of AI assistants, with Project Astra.Context lengths of leading foundation models compared with Gemini 1.5’s 2 million token capability1.5 Flash is the newest addition to the Gemini model family and the fastest Gemini model served in the API. It’s optimized for high-volume, high-frequency tasks at scale, is more cost-efficient to serve and features our breakthrough long context window.While it’s a lighter weight model than 1.5 Pro, it’s highly capable of multimodal reasoning across vast amounts of information and delivers impressive quality for its size.The new Gemini 1.5 Flash model is optimized for speed and efficiency, is highly capable of multimodal reasoning and features our breakthrough long context window.1.5 Flash excels at summarization, chat applications, image and video captioning, data extraction from long documents and tables, and more. This is because it’s been trained by 1.5 Pro through a process called “distillation,” where the most essential knowledge and skills from a larger model are transferred to a smaller, more efficient model.Read more about 1.5 Flash in our updated Gemini 1.5 technical report, on the Gemini technology page, and learn about 1.5 Flash’s availability and pricing.Over the last few months, we’ve significantly improved 1.5 Pro, our best model for general performance across a wide range of tasks.Beyond extending its context window to 2 million tokens, we’ve enhanced its code generation, logical reasoning and planning, multi-turn conversation, and audio and image understanding through data and algorithmic advances. We see strong improvements on public and internal benchmarks for each of these tasks.1.5 Pro can now follow increasingly complex and nuanced instructions, including ones that specify product-level behavior involving role, format and style. We’ve improved control over the model’s responses for specific use cases, like crafting the persona and response style of a chat agent or automating workflows through multiple function calls. And we’ve enabled users to steer model behavior by setting system instructions.We added audio understanding in the Gemini API and Google AI Studio, so 1.5 Pro can now reason across image and audio for videos uploaded in Google AI Studio. And we’re now integrating 1.5 Pro into Google products, including Gemini Advanced and in Workspace apps.Read more about 1.5 Pro in our updated Gemini 1.5 technical report and on the Gemini technology page.Gemini Nano is expanding beyond text-only inputs to include images as well. Starting with Pixel, applications using Gemini Nano with Multimodality will be able to understand the world the way people do — not just through text, but also through sight, sound and spoken language.Read more about Gemini 1.0 Nano on Android.Today, we’re also sharing a series of updates to Gemma, our family of open models built from the same research and technology used to create the Gemini models.We’re announcing Gemma 2, our next generation of open models for responsible AI innovation. Gemma 2 has a new architecture designed for breakthrough performance and efficiency, and will be available in new sizes.The Gemma family is also expanding with PaliGemma, our first vision-language model inspired by PaLI-3. And we’ve upgraded our Responsible Generative AI Toolkit with LLM Comparator for evaluating the quality of model responses.Read more on the Developer blog.As part of Google DeepMind’s mission to build AI responsibly to benefit humanity, we’ve always wanted to develop universal AI agents that can be helpful in everyday life. That’s why today, we’re sharing our progress in building the future of AI assistants with Project Astra (advanced seeing and talking responsive agent).To be truly useful, an agent needs to understand and respond to the complex and dynamic world just like people do — and take in and remember what it sees and hears to understand context and take action. It also needs to be proactive, teachable and personal, so users can talk to it naturally and without lag or delay.While we’ve made incredible progress developing AI systems that can understand multimodal information, getting response time down to something conversational is a difficult engineering challenge. Over the past few years, we’ve been working to improve how our models perceive, reason and converse to make the pace and quality of interaction feel more natural.Building on Gemini, we’ve developed prototype agents that can process information faster by continuously encoding video frames, combining the video and speech input into a timeline of events, and caching this information for efficient recall.By leveraging our leading speech models, we also enhanced how they sound, giving the agents a wider range of intonations. These agents can better understand the context they’re being used in, and respond quickly, in conversation.With technology like this, it’s easy to envision a future where people could have an expert AI assistant by their side, through a phone or glasses. And some of these capabilities are coming to Google products, like the Gemini app and web experience, later this year.We’ve made incredible progress so far with our family of Gemini models, and we’re always striving to advance the state-of-the-art even further. By investing in a relentless production line of innovation, we’re able to explore new ideas at the frontier, while also unlocking the possibility of new and exciting Gemini use cases.Learn more about Gemini and its capabilities. Your information will be used in accordance with Google’s privacy policy.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>      Done. Just one step more.
-    
-      Check your inbox to confirm your subscription.
-    You are already subscribed to our newsletter.
-    You can also subscribe with a
-    different email address
-    
-    .
-    
-  Let’s stay in touch. Get the latest news from Google in your inbox.
-          Follow Us
-</code></pre></div></div>]]></content><author><name></name></author><summary type="html"><![CDATA[We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.]]></summary></entry><entry><title type="html">a post with tabs</title><link href="https://alshedivat.github.io/blog/2024/tabs/" rel="alternate" type="text/html" title="a post with tabs"/><published>2024-05-01T00:32:13+00:00</published><updated>2024-05-01T00:32:13+00:00</updated><id>https://alshedivat.github.io/blog/2024/tabs</id><content type="html" xml:base="https://alshedivat.github.io/blog/2024/tabs/"><![CDATA[<p>This is how a post with <a href="https://github.com/Ovski4/jekyll-tabs">tabs</a> looks like. Note that the tabs could be used for different purposes, not only for code.</p> <h2 id="first-tabs">First tabs</h2> <p>To add tabs, use the following syntax:</p> <div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">tabs</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="cp">%}</span>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://alshedivat.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://alshedivat.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-06-26T19:41:42+00:00</updated><id>https://alshedivat.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">game over</title><link href="https://alshedivat.github.io/blog/2025/gameOver/" rel="alternate" type="text/html" title="game over"/><published>2025-06-18T15:09:01+00:00</published><updated>2025-06-18T15:09:01+00:00</updated><id>https://alshedivat.github.io/blog/2025/gameOver</id><content type="html" xml:base="https://alshedivat.github.io/blog/2025/gameOver/"><![CDATA[<p>Next I figured I’d work on checking if there was a winner or a stalemate. This function would be called my the gameManager.</p> <p>How do you win at Chess? You win if</p> <ol> <li>The opponent is in Check <em>and</em></li> <li>The opponent has no moves which could get them out of Check</li> </ol> <p>There is an alternative outcome is a stalemate. This is when</p> <ol> <li>The opponent is not in Check <em>and</em></li> <li>The opponent has no legal moves</li> </ol> <p>This led me to writing <code class="language-plaintext highlighter-rouge">getAllLegalMoves</code> which checks all the available legal moves for a given color. This is important not just to check for game-ending/stalemate conditions, but also later on when the computer will have to choose its next move (presumably from a list of legal moves or else make sure that it’s desired move is in the list of legal possibilities.)</p> <p>This function got complicated quickly. Initially, I wrote everything under one massive function until I got to the Queen part and I remembered from the move validator implementation that a Queen is just a rook and a bishop standing on top of eachother under a trench coat, so it really behooves you to write smaller sub functions e.g <code class="language-plaintext highlighter-rouge">getAllRookMoves</code> (not to mention it’s probably better for debugging/testing).</p> <p>Then, the function iterates over the board and finds the available moves for each piece still on the board. I thought this was preferable to the alternative, the dreaded quadruple for-loop (2 loops to iterate over the board, plus 2 more nested loops to simulate every move moving to each destination square using <code class="language-plaintext highlighter-rouge">pieceCanReach</code>).</p> <h3 id="fen-parsing">FEN Parsing</h3> <p>Rather than start from the standard 8x8 starting position, I realized I needed an empty board that I could stage tests like the Analysis board on chess.com</p> <p>So I added a method to my <code class="language-plaintext highlighter-rouge">Board</code> class to <strong>clear everything</strong> and allow me to place individual pieces manually:</p> <div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">void</span> <span class="n">Board</span><span class="o">::</span><span class="n">clearBoard</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">r</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">r</span> <span class="o">&lt;</span> <span class="mi">8</span><span class="p">;</span> <span class="o">++</span><span class="n">r</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">c</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">c</span> <span class="o">&lt;</span> <span class="mi">8</span><span class="p">;</span> <span class="o">++</span><span class="n">c</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">grid</span><span class="p">[</span><span class="n">r</span><span class="p">][</span><span class="n">c</span><span class="p">]</span> <span class="o">=</span> <span class="nb">nullptr</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div> <p>The way this is typically done is called FEN (Forsyth-Edwards Notation) strings, which is a very compact notation that captures the state of a chess board at a given instance.</p> <p>What is FEN? It stands for Forsyth-Edwards Notation. It’s made of 6 space-separated fields</p> <h4 id="1-piece-placement">1. Piece Placement</h4> <p>This is a ‘/’ separated list of 8 ranks where white is capitalized and black is lowercase.</p> <h4 id="2-active-color">2. Active Color</h4> <h4 id="3-castling-availability">3. Castling availability</h4> <h4 id="4-en-passant-target-square">4. En passant target square</h4> <p>This is ‘-‘ if none.</p> <h4 id="5-halfmove-clock">5. Halfmove clock</h4> <p>For the 50 move rule</p> <h4 id="6-fullmove-number">6. Fullmove number</h4> <p>Again, some matches have a maximum number of moves so this tracks that</p> <h3 id="simulatemove">simulateMove</h3> <p>I was failing legality tests so there was some debugging with the move validation. To check if a move would leave the king in check, I implemented simulateMove on a cloned board. This let me test hypothetical moves without affecting the real game state.</p> <p>This became essential in: - Checking if castling is legal - Ensuring you don’t move into check - Verifying forced check escape moves</p> <p>This is what it became:</p> <div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Board</span><span class="o">::</span><span class="n">loadFEN</span><span class="p">(</span><span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&amp;</span> <span class="n">fen</span><span class="p">){</span>
+    <span class="n">clearBoard</span><span class="p">();</span>  <span class="c1">// Reset grid to empty</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">tab</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="nv">tab-name-1</span><span class="w"> </span><span class="cp">%}</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">istringstream</span> <span class="n">iss</span><span class="p">(</span><span class="n">fen</span><span class="p">);</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">piecePlacement</span><span class="p">,</span> <span class="n">activeColor</span><span class="p">,</span> <span class="n">castling</span><span class="p">,</span> <span class="n">enPassant</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">halfmoveClock</span><span class="p">,</span> <span class="n">fullmoveNumber</span><span class="p">;</span>
 
-Content 1
+    <span class="n">iss</span> <span class="o">&gt;&gt;</span> <span class="n">piecePlacement</span> <span class="o">&gt;&gt;</span> <span class="n">activeColor</span> <span class="o">&gt;&gt;</span> <span class="n">castling</span> <span class="o">&gt;&gt;</span> <span class="n">enPassant</span> <span class="o">&gt;&gt;</span> <span class="n">halfmoveClock</span> <span class="o">&gt;&gt;</span> <span class="n">fullmoveNumber</span><span class="p">;</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
+    <span class="kt">int</span> <span class="n">row</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">col</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">char</span> <span class="n">c</span> <span class="o">:</span> <span class="n">piecePlacement</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">color</span> <span class="o">=</span> <span class="n">isupper</span><span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="o">?</span> <span class="s">"white"</span> <span class="o">:</span> <span class="s">"black"</span><span class="p">;</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">c</span> <span class="o">==</span> <span class="sc">'/'</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">row</span><span class="o">++</span><span class="p">;</span>
+            <span class="n">col</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="nf">if</span> <span class="p">(</span><span class="n">isdigit</span><span class="p">(</span><span class="n">c</span><span class="p">))</span> <span class="p">{</span>
+            <span class="n">col</span> <span class="o">+=</span> <span class="n">c</span> <span class="o">-</span> <span class="sc">'0'</span><span class="p">;</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">name</span><span class="p">;</span>
+            <span class="k">switch</span> <span class="p">(</span><span class="n">tolower</span><span class="p">(</span><span class="n">c</span><span class="p">))</span> <span class="p">{</span>
+                <span class="k">case</span> <span class="sc">'p'</span><span class="p">:</span> <span class="n">name</span> <span class="o">=</span> <span class="s">"pawn"</span><span class="p">;</span> <span class="k">break</span><span class="p">;</span>
+                <span class="k">case</span> <span class="sc">'n'</span><span class="p">:</span> <span class="n">name</span> <span class="o">=</span> <span class="s">"knight"</span><span class="p">;</span> <span class="k">break</span><span class="p">;</span>
+                <span class="k">case</span> <span class="sc">'b'</span><span class="p">:</span> <span class="n">name</span> <span class="o">=</span> <span class="s">"bishop"</span><span class="p">;</span> <span class="k">break</span><span class="p">;</span>
+                <span class="k">case</span> <span class="sc">'r'</span><span class="p">:</span> <span class="n">name</span> <span class="o">=</span> <span class="s">"rook"</span><span class="p">;</span> <span class="k">break</span><span class="p">;</span>
+                <span class="k">case</span> <span class="sc">'q'</span><span class="p">:</span> <span class="n">name</span> <span class="o">=</span> <span class="s">"queen"</span><span class="p">;</span> <span class="k">break</span><span class="p">;</span>
+                <span class="k">case</span> <span class="sc">'k'</span><span class="p">:</span> <span class="n">name</span> <span class="o">=</span> <span class="s">"king"</span><span class="p">;</span> <span class="k">break</span><span class="p">;</span>
+            <span class="p">}</span>
+            <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">displayName</span><span class="p">;</span>
+            <span class="kt">int</span> <span class="n">point_val</span><span class="p">;</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">color</span> <span class="o">==</span> <span class="s">"white"</span><span class="p">){</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">name</span> <span class="o">==</span> <span class="s">"pawn"</span><span class="p">){</span><span class="n">displayName</span> <span class="o">=</span> <span class="s">"w_P"</span><span class="p">;</span> <span class="n">point_val</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;}</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">name</span> <span class="o">==</span> <span class="s">"knight"</span><span class="p">){</span><span class="n">displayName</span> <span class="o">=</span> <span class="s">"w_N"</span><span class="p">;</span> <span class="n">point_val</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;}</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">name</span> <span class="o">==</span> <span class="s">"bishop"</span><span class="p">){</span><span class="n">displayName</span> <span class="o">=</span> <span class="s">"w_B"</span><span class="p">;</span> <span class="n">point_val</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;}</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">name</span> <span class="o">==</span> <span class="s">"rook"</span><span class="p">){</span><span class="n">displayName</span> <span class="o">=</span> <span class="s">"w_R"</span><span class="p">;</span> <span class="n">point_val</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;}</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">name</span> <span class="o">==</span> <span class="s">"queen"</span><span class="p">){</span><span class="n">displayName</span> <span class="o">=</span> <span class="s">"w_Q"</span><span class="p">;</span> <span class="n">point_val</span> <span class="o">=</span> <span class="mi">9</span><span class="p">;}</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">name</span> <span class="o">==</span> <span class="s">"king"</span><span class="p">){</span><span class="n">displayName</span> <span class="o">=</span> <span class="s">"w_K"</span><span class="p">;</span> <span class="n">point_val</span> <span class="o">=</span> <span class="mi">1000</span><span class="p">;}</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">name</span> <span class="o">==</span> <span class="s">"pawn"</span><span class="p">){</span><span class="n">displayName</span> <span class="o">=</span> <span class="s">"b_P"</span><span class="p">;</span> <span class="n">point_val</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;}</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">name</span> <span class="o">==</span> <span class="s">"knight"</span><span class="p">){</span><span class="n">displayName</span> <span class="o">=</span> <span class="s">"b_N"</span><span class="p">;</span> <span class="n">point_val</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;}</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">name</span> <span class="o">==</span> <span class="s">"bishop"</span><span class="p">){</span><span class="n">displayName</span> <span class="o">=</span> <span class="s">"b_B"</span><span class="p">;</span> <span class="n">point_val</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;}</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">name</span> <span class="o">==</span> <span class="s">"rook"</span><span class="p">){</span><span class="n">displayName</span> <span class="o">=</span> <span class="s">"b_R"</span><span class="p">;</span> <span class="n">point_val</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;}</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">name</span> <span class="o">==</span> <span class="s">"queen"</span><span class="p">){</span><span class="n">displayName</span> <span class="o">=</span> <span class="s">"b_Q"</span><span class="p">;</span> <span class="n">point_val</span> <span class="o">=</span> <span class="mi">9</span><span class="p">;}</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">name</span> <span class="o">==</span> <span class="s">"king"</span><span class="p">){</span><span class="n">displayName</span> <span class="o">=</span> <span class="s">"b_K"</span><span class="p">;</span> <span class="n">point_val</span> <span class="o">=</span> <span class="mi">1000</span><span class="p">;}</span>
+            <span class="p">}</span>
+            <span class="kt">char</span> <span class="n">file</span> <span class="o">=</span> <span class="sc">'a'</span> <span class="o">+</span> <span class="n">col</span><span class="p">;</span>
+            <span class="kt">int</span> <span class="n">rank</span> <span class="o">=</span> <span class="mi">8</span> <span class="o">-</span> <span class="n">row</span><span class="p">;</span>
+            <span class="kt">bool</span> <span class="n">hasMoved</span> <span class="o">=</span> <span class="n">check_hasMoved</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">color</span><span class="p">,</span> <span class="n">row</span><span class="p">,</span> <span class="n">col</span><span class="p">,</span> <span class="n">castling</span><span class="p">);</span>
+            <span class="k">auto</span> <span class="n">piece</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">make_shared</span><span class="o">&lt;</span><span class="n">Piece</span><span class="o">&gt;</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">color</span><span class="p">,</span> <span class="n">displayName</span><span class="p">,</span> <span class="n">file</span><span class="p">,</span> <span class="n">rank</span><span class="p">,</span> <span class="n">point_val</span><span class="p">);</span>
+            <span class="n">piece</span><span class="o">-&gt;</span><span class="n">hasMoved</span> <span class="o">=</span> <span class="n">hasMoved</span><span class="p">;</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">tab</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="nv">tab-name-2</span><span class="w"> </span><span class="cp">%}</span>
+            <span class="n">grid</span><span class="p">[</span><span class="n">row</span><span class="p">][</span><span class="n">col</span><span class="p">]</span> <span class="o">=</span> <span class="n">piece</span><span class="p">;</span>
+            <span class="n">col</span><span class="o">++</span><span class="p">;</span>
 
-Content 2
+            <span class="k">if</span> <span class="p">(</span><span class="n">col</span> <span class="o">&gt;</span> <span class="mi">8</span> <span class="o">||</span> <span class="n">row</span> <span class="o">&gt;</span> <span class="mi">7</span><span class="p">)</span> <span class="p">{</span>
+                <span class="k">throw</span> <span class="n">std</span><span class="o">::</span><span class="n">runtime_error</span><span class="p">(</span><span class="s">"FEN parsing error: exceeded board bounds."</span><span class="p">);</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Done loading FEN this is the board ... "</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+    <span class="n">printBoard</span><span class="p">();</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">turn</span> <span class="o">=</span> <span class="p">(</span><span class="n">activeColor</span> <span class="o">==</span> <span class="s">"w"</span><span class="p">)</span> <span class="o">?</span> <span class="s">"white"</span> <span class="o">:</span> <span class="s">"black"</span><span class="p">;</span>
+    <span class="k">return</span> <span class="n">turn</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div> <p>I’ve written the unit tests and it passes, but I’m not fully convinced … next I think I want to work on writing the infrastructure for loading in games from available databases and make sure that the moveValidator and checkGameOver are working. I’ll need this either way when I start implementing the part where the computer starts making decisions.</p> <p>👉 Follow along with my progress on GitHub: <a href="https://github.com/suchkristenwow/chessBot">chessBot</a></p>]]></content><author><name></name></author><category term="side-projects"/><category term="chess-bot"/><category term="side-project"/><category term="cpp"/><category term="unit-testing"/><summary type="html"><![CDATA[How to check Win Conditions]]></summary></entry><entry><title type="html">How I Learned to Stop Worrying and Love the Unit Test</title><link href="https://alshedivat.github.io/blog/2025/testing/" rel="alternate" type="text/html" title="How I Learned to Stop Worrying and Love the Unit Test"/><published>2025-06-04T14:28:54+00:00</published><updated>2025-06-04T14:28:54+00:00</updated><id>https://alshedivat.github.io/blog/2025/testing</id><content type="html" xml:base="https://alshedivat.github.io/blog/2025/testing/"><![CDATA[<p>… so does any of this actually work?</p> <p>I learned about Catch2 … you just need to include <code class="language-plaintext highlighter-rouge">#define CATCH_CONFIG_MAIN</code> in the header, put your tests in their own directory, then you can run them on their own.</p> <p>In CMakeLists.txt you just need to</p> <h3 id="1-find_package">1. find_package</h3> <p>This tells CMake to look for Catch2 on your system (via CMake’s module system).</p> <h3 id="2-enable_testing">2. enable_testing()</h3> <h3 id="3-add_executable">3. add_executable</h3> <p>add_executable(test_gameOver tests/test_gameOver.cpp …) add_executable(test_move_validator tests/test_move_validator.cpp …)</p> <h3 id="4-target_link_libraries">4. target_link_libraries()</h3> <p>This line links your test executables against Catch2, so you get access to all the Catch2 macros (like TEST_CASE, REQUIRE, etc.).</p> <h3 id="5-add_test">5. add_test</h3> <p>Finally this allows you to run the tests all at once with <code class="language-plaintext highlighter-rouge">ctest</code> or else manually like this <code class="language-plaintext highlighter-rouge">test_gameOver</code></p> <p>My CMakeLists.txt became:</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cmake_minimum_required<span class="o">(</span>VERSION 3.10<span class="o">)</span>
+project<span class="o">(</span>chess_bot<span class="o">)</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
+<span class="nb">set</span><span class="o">(</span>CMAKE_CXX_STANDARD 14<span class="o">)</span>
+find_package<span class="o">(</span>Catch2 REQUIRED<span class="o">)</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtabs</span><span class="w"> </span><span class="cp">%}</span>
-</code></pre></div></div> <p>With this you can generate visualizations like:</p> <ul id="log" class="tab" data-tab="c1267a8f-e118-4727-8c96-1327e2649a1c" data-name="log"> <li class="active" id="log-php"> <a href="#">php </a> </li> <li id="log-js"> <a href="#">js </a> </li> <li id="log-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="c1267a8f-e118-4727-8c96-1327e2649a1c" data-name="log"> <li class="active"> <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
-</code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">hello</span><span class="dl">"</span><span class="p">);</span>
-</code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">pputs</span> <span class="dl">'</span><span class="s1">hello</span><span class="dl">'</span>
-</code></pre></div></div> </li> </ul> <h2 id="another-example">Another example</h2> <ul id="data-struct" class="tab" data-tab="a624e0a2-ffd1-4a6c-8fc1-3f1e0501c618" data-name="data-struct"> <li class="active" id="data-struct-yaml"> <a href="#">yaml </a> </li> <li id="data-struct-json"> <a href="#">json </a> </li> </ul> <ul class="tab-content" id="a624e0a2-ffd1-4a6c-8fc1-3f1e0501c618" data-name="data-struct"> <li class="active"> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
-  <span class="pi">-</span> <span class="s2">"</span><span class="s">whatsup"</span>
-  <span class="pi">-</span> <span class="s2">"</span><span class="s">hi"</span>
-</code></pre></div></div> </li> <li> <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
-  </span><span class="nl">"hello"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"whatsup"</span><span class="p">,</span><span class="w"> </span><span class="s2">"hi"</span><span class="p">]</span><span class="w">
-</span><span class="p">}</span><span class="w">
-</span></code></pre></div></div> </li> </ul> <h2 id="tabs-for-something-else">Tabs for something else</h2> <ul id="something-else" class="tab" data-tab="dd16e03b-7c60-4fd7-b694-727dcc496475" data-name="something-else"> <li class="active" id="something-else-text"> <a href="#">text </a> </li> <li id="something-else-quote"> <a href="#">quote </a> </li> <li id="something-else-list"> <a href="#">list </a> </li> </ul> <ul class="tab-content" id="dd16e03b-7c60-4fd7-b694-727dcc496475" data-name="something-else"> <li class="active"> <p>Regular text</p> </li> <li> <blockquote> <p>A quote</p> </blockquote> </li> <li> <p>Hipster list</p> <ul> <li>brunch</li> <li>fixie</li> <li>raybans</li> <li>messenger bag</li> </ul> </li> </ul>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included tabs in a post could look like]]></summary></entry><entry><title type="html">a post with typograms</title><link href="https://alshedivat.github.io/blog/2024/typograms/" rel="alternate" type="text/html" title="a post with typograms"/><published>2024-04-29T23:36:10+00:00</published><updated>2024-04-29T23:36:10+00:00</updated><id>https://alshedivat.github.io/blog/2024/typograms</id><content type="html" xml:base="https://alshedivat.github.io/blog/2024/typograms/"><![CDATA[<p>This is an example post with some <a href="https://github.com/google/typograms/">typograms</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
-</span><span class="sb">+----+
-|    |---&gt; My first diagram!
-+----+</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-typograms">+----+
-|    |---&gt; My first diagram!
-+----+
-</code></pre> <p>Another example:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
-</span><span class="sb">.------------------------.
-|.----------------------.|
-||"https://example.com" ||
-|'----------------------'|
-| ______________________ |
-||                      ||
-||   Welcome!           ||
-||                      ||
-||                      ||
-||  .----------------.  ||
-||  | username       |  ||
-||  '----------------'  ||
-||  .----------------.  ||
-||  |"*******"       |  ||
-||  '----------------'  ||
-||                      ||
-||  .----------------.  ||
-||  |   "Sign-up"    |  ||
-||  '----------------'  ||
-||                      ||
-|+----------------------+|
-.------------------------.</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>which generates:</p> <pre><code class="language-typograms">.------------------------.
-|.----------------------.|
-||"https://example.com" ||
-|'----------------------'|
-| ______________________ |
-||                      ||
-||   Welcome!           ||
-||                      ||
-||                      ||
-||  .----------------.  ||
-||  | username       |  ||
-||  '----------------'  ||
-||  .----------------.  ||
-||  |"*******"       |  ||
-||  '----------------'  ||
-||                      ||
-||  .----------------.  ||
-||  |   "Sign-up"    |  ||
-||  '----------------'  ||
-||                      ||
-|+----------------------+|
-.------------------------.
-</code></pre> <p>For more examples, check out the <a href="https://google.github.io/typograms/#examples">typograms documentation</a>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="diagrams"/><summary type="html"><![CDATA[this is what included typograms code could look like]]></summary></entry><entry><title type="html">a post that can be cited</title><link href="https://alshedivat.github.io/blog/2024/post-citation/" rel="alternate" type="text/html" title="a post that can be cited"/><published>2024-04-28T15:06:00+00:00</published><updated>2024-04-28T15:06:00+00:00</updated><id>https://alshedivat.github.io/blog/2024/post-citation</id><content type="html" xml:base="https://alshedivat.github.io/blog/2024/post-citation/"><![CDATA[<p>This is an example post that can be cited. The content of the post ends here, while the citation information is automatically provided below. The only thing needed is for you to set the <code class="language-plaintext highlighter-rouge">citation</code> key in the front matter to <code class="language-plaintext highlighter-rouge">true</code>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="citation"/><summary type="html"><![CDATA[this is what a post that can be cited looks like]]></summary></entry><entry><title type="html">a post with pseudo code</title><link href="https://alshedivat.github.io/blog/2024/pseudocode/" rel="alternate" type="text/html" title="a post with pseudo code"/><published>2024-04-15T00:01:00+00:00</published><updated>2024-04-15T00:01:00+00:00</updated><id>https://alshedivat.github.io/blog/2024/pseudocode</id><content type="html" xml:base="https://alshedivat.github.io/blog/2024/pseudocode/"><![CDATA[<p>This is an example post with some pseudo code rendered by <a href="https://github.com/SaswatPadhi/pseudocode.js">pseudocode</a>. The example presented here is the same as the one in the <a href="https://saswat.padhi.me/pseudocode.js/">pseudocode.js</a> documentation, with only one simple but important change: everytime you would use <code class="language-plaintext highlighter-rouge">$</code>, you should use <code class="language-plaintext highlighter-rouge">$$</code> instead. Also, note that the <code class="language-plaintext highlighter-rouge">pseudocode</code> key in the front matter is set to <code class="language-plaintext highlighter-rouge">true</code> to enable the rendering of pseudo code. As an example, using this code:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">pseudocode
-</span><span class="sb">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
-\begin{algorithm}
-\caption{Quicksort}
-\begin{algorithmic}
-\PROCEDURE{Quicksort}{$$A, p, r$$}
-    \IF{$$p &lt; r$$}
-        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
-        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
-        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
-    \ENDIF
-\ENDPROCEDURE
-\PROCEDURE{Partition}{$$A, p, r$$}
-    \STATE $$x = A[r]$$
-    \STATE $$i = p - 1$$
-    \FOR{$$j = p$$ \TO $$r - 1$$}
-        \IF{$$A[j] &lt; x$$}
-            \STATE $$i = i + 1$$
-            \STATE exchange
-            $$A[i]$$ with $$A[j]$$
-        \ENDIF
-        \STATE exchange $$A[i]$$ with $$A[r]$$
-    \ENDFOR
-\ENDPROCEDURE
-\end{algorithmic}
-\end{algorithm}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Generates:</p> <pre><code class="language-pseudocode">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
-\begin{algorithm}
-\caption{Quicksort}
-\begin{algorithmic}
-\PROCEDURE{Quicksort}{$$A, p, r$$}
-    \IF{$$p &lt; r$$}
-        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
-        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
-        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
-    \ENDIF
-\ENDPROCEDURE
-\PROCEDURE{Partition}{$$A, p, r$$}
-    \STATE $$x = A[r]$$
-    \STATE $$i = p - 1$$
-    \FOR{$$j = p$$ \TO $$r - 1$$}
-        \IF{$$A[j] &lt; x$$}
-            \STATE $$i = i + 1$$
-            \STATE exchange
-            $$A[i]$$ with $$A[j]$$
-        \ENDIF
-        \STATE exchange $$A[i]$$ with $$A[r]$$
-    \ENDFOR
-\ENDPROCEDURE
-\end{algorithmic}
-\end{algorithm}
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included pseudo code could look like]]></summary></entry><entry><title type="html">a post with code diff</title><link href="https://alshedivat.github.io/blog/2024/code-diff/" rel="alternate" type="text/html" title="a post with code diff"/><published>2024-01-27T19:22:00+00:00</published><updated>2024-01-27T19:22:00+00:00</updated><id>https://alshedivat.github.io/blog/2024/code-diff</id><content type="html" xml:base="https://alshedivat.github.io/blog/2024/code-diff/"><![CDATA[<p>You can display diff code by using the regular markdown syntax:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff
-</span><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")
-</span></code></pre></div></div> <p>But this is difficult to read, specially if you have a large diff. You can use <a href="https://diff2html.xyz/">diff2html</a> to display a more readable version of the diff. For this, just use <code class="language-plaintext highlighter-rouge">diff2html</code> instead of <code class="language-plaintext highlighter-rouge">diff</code> for the code block language:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff2html
-</span><span class="sb">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
---- a/sample.js
-+++ b/sample.js
-@@ -1 +1 @@
--console.log("Hello World!")
-+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>If we use a longer example, for example <a href="https://github.com/rtfpessoa/diff2html/commit/c2c253d3e3f8b8b267f551e659f72b44ca2ac927">this commit from diff2html</a>, it will generate the following output:</p> <pre><code class="language-diff2html">From 2aaae31cc2a37bfff83430c2c914b140bee59b6a Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sun, 9 Oct 2016 16:41:54 +0100
-Subject: [PATCH 1/2] Initial template override support
+include_directories<span class="o">(</span>include
+                    external<span class="o">)</span>
 
----
- scripts/hulk.js                    |  4 ++--
- src/diff2html.js                   |  3 +--
- src/file-list-printer.js           | 11 ++++++++---
- src/hoganjs-utils.js               | 29 +++++++++++++++++------------
- src/html-printer.js                |  6 ++++++
- src/line-by-line-printer.js        |  6 +++++-
- src/side-by-side-printer.js        |  6 +++++-
- test/file-list-printer-tests.js    |  2 +-
- test/hogan-cache-tests.js          | 18 +++++++++++++++---
- test/line-by-line-tests.js         |  3 +--
- test/side-by-side-printer-tests.js |  3 +--
- 11 files changed, 62 insertions(+), 29 deletions(-)
+add_executable<span class="o">(</span>chess_bot
+    main.cpp
+    src/board.cpp
+    src/piece.cpp
+    src/move_validator.cpp
+    src/game_manager.cpp
+<span class="o">)</span>
 
-diff --git a/scripts/hulk.js b/scripts/hulk.js
-index 5a793c18..a4b1a4d5 100755
---- a/scripts/hulk.js
-+++ b/scripts/hulk.js
-@@ -173,11 +173,11 @@ function namespace(name) {
- // write a template foreach file that matches template extension
- templates = extractFiles(options.argv.remain)
-   .map(function(file) {
--    var openedFile = fs.readFileSync(file, 'utf-8');
-+    var openedFile = fs.readFileSync(file, 'utf-8').trim();
-     var name;
-     if (!openedFile) return;
-     name = namespace(path.basename(file).replace(/\..*$/, ''));
--    openedFile = removeByteOrderMark(openedFile.trim());
-+    openedFile = removeByteOrderMark(openedFile);
-     openedFile = wrap(file, name, openedFile);
-     if (!options.outputdir) return openedFile;
-     fs.writeFileSync(path.join(options.outputdir, name + '.js')
-diff --git a/src/diff2html.js b/src/diff2html.js
-index 21b0119e..64e138f5 100644
---- a/src/diff2html.js
-+++ b/src/diff2html.js
-@@ -7,7 +7,6 @@
 
- (function() {
-   var diffParser = require('./diff-parser.js').DiffParser;
--  var fileLister = require('./file-list-printer.js').FileListPrinter;
-   var htmlPrinter = require('./html-printer.js').HtmlPrinter;
+<span class="c"># Executable for test_gameOver</span>
+add_executable<span class="o">(</span>test_gameOver
+    tests/test_gameOver.cpp
+    src/board.cpp
+    src/piece.cpp
+    src/move_validator.cpp
+    src/game_manager.cpp
+<span class="o">)</span>
 
-   function Diff2Html() {
-@@ -43,7 +42,7 @@
+<span class="c"># Executable for test_move_validator</span>
+add_executable<span class="o">(</span>test_move_validator
+    tests/test_move_validator.cpp
+    src/board.cpp
+    src/piece.cpp
+    src/move_validator.cpp
+    src/game_manager.cpp
+<span class="o">)</span>
 
-     var fileList = '';
-     if (configOrEmpty.showFiles === true) {
--      fileList = fileLister.generateFileList(diffJson, configOrEmpty);
-+      fileList = htmlPrinter.generateFileListSummary(diffJson, configOrEmpty);
-     }
+enable_testing<span class="o">()</span>
 
-     var diffOutput = '';
-diff --git a/src/file-list-printer.js b/src/file-list-printer.js
-index e408d9b2..1e0a2c61 100644
---- a/src/file-list-printer.js
-+++ b/src/file-list-printer.js
-@@ -8,11 +8,16 @@
- (function() {
-   var printerUtils = require('./printer-utils.js').PrinterUtils;
+<span class="c"># Link and register tests</span>
+target_link_libraries<span class="o">(</span>test_gameOver Catch2::Catch2<span class="o">)</span>
+add_test<span class="o">(</span>NAME GameOverTest COMMAND test_gameOver<span class="o">)</span>
 
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var baseTemplatesPath = 'file-summary';
-   var iconsBaseTemplatesPath = 'icon';
+target_link_libraries<span class="o">(</span>test_move_validator Catch2::Catch2<span class="o">)</span>
+add_test<span class="o">(</span>NAME MoveValidatorTest COMMAND test_move_validator<span class="o">)</span>
+</code></pre></div></div> <p>Then I can begin to write the unit tests. A basic test looks like this:</p> <div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">TEST_CASE</span><span class="p">(</span><span class="s">"Pawn can move two squares from starting position"</span><span class="p">,</span> <span class="s">"[pawn]"</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">Board</span> <span class="n">board</span><span class="p">;</span>
+    <span class="n">MoveResult</span> <span class="n">result</span> <span class="o">=</span> <span class="n">MoveValidator</span><span class="o">::</span><span class="n">isvalidMove</span><span class="p">(</span><span class="n">board</span><span class="p">,</span> <span class="s">"e4"</span><span class="p">,</span> <span class="s">"white"</span><span class="p">);</span>
+    <span class="n">REQUIRE</span><span class="p">(</span><span class="n">result</span><span class="p">.</span><span class="n">valid</span> <span class="o">==</span> <span class="nb">true</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div> <p>I had to think of the range of things that tested - “minimal but complete” as they say.</p> <p>This led me to test one canonical legal move and one canonical illegal move for each major concept: - Each piece type (pawn, knight, rook, bishop, queen, king) - Special moves (castling, en passant, pawn promotion) - Rule enforcement (check, self-check, invalid notation)</p> <p>Here’s what I came up with so far.</p> <p><strong>Basic legality</strong> TEST_CASE(“Basic Pawn Move”) ensures that standard opening moves work.</p> <p><strong>Illegal vs. legal movement</strong> Ne5 fails (wrong square), Nf3 passes — this confirms knight move logic is working as expected.</p> <p><strong>Sliding piece logic</strong> For rooks and bishops, I checked that they can’t “phase” through other pieces. If Rh3 is blocked, it fails; after clearing the path, it passes.</p> <p><strong>Castling</strong> Separate tests ensure: - Valid king-side and queen-side castling pass when legal - Castling fails if any required condition is violated (e.g., king moved, path not clear, in check)</p> <p><strong>Self-check rules</strong> Moves that leave the king in check are invalid. These are tested with simulated attacks and forced king escapes.</p> <p><strong>Historical rules</strong> Scholars Mate is included as a real-game sequence test — testing both correctness and sanity of the move validator when chaining moves.</p> <h2 id="lessons-learned">Lessons Learned</h2> <h3 id="duplicate-san-parsing">Duplicate SAN Parsing</h3> <p>I realized, thanks to many many print statements, that parseSAN was being called multiple times over. I refactored to parse the move once, then pass the parsed move into both steps. SAN notation is weird in that, it doesn’t give outrightly any info about the departure square - you just have to scan around looking for pieces that <em>could</em> reach the target square. That’s where our <code class="language-plaintext highlighter-rouge">pieceCanReach</code> from before gets called.</p> <h3 id="better-errors">Better Errors</h3> <p>Instead of <code class="language-plaintext highlighter-rouge">isvalidMove</code> returning bool, I upgraded it to reutn a custom struct <code class="language-plaintext highlighter-rouge">MoveResult</code> so I can more cleanly capture the reason a move failed. In theory, this ensures that unit tests are passing/failing for the reasons they should.</p> <p>👉 Follow along with my progress on GitHub: <a href="https://github.com/suchkristenwow/chessBot">chessBot</a></p>]]></content><author><name></name></author><category term="side-projects"/><category term="chess-bot"/><category term="side-project"/><category term="cpp"/><category term="unit-testing"/><summary type="html"><![CDATA[Unit Testing with Catch2 and Debugging]]></summary></entry><entry><title type="html">The Rules of the Game</title><link href="https://alshedivat.github.io/blog/2025/moveValidation/" rel="alternate" type="text/html" title="The Rules of the Game"/><published>2025-05-05T18:06:12+00:00</published><updated>2025-05-05T18:06:12+00:00</updated><id>https://alshedivat.github.io/blog/2025/moveValidation</id><content type="html" xml:base="https://alshedivat.github.io/blog/2025/moveValidation/"><![CDATA[<p>So we have our pieces, we have our board, and we can play a game but how do we enforce the rules?</p> <p>This part of the project seemed trickier. I figured there are 3 parts of validty; valid notation, valid pattern, and move legality.</p> <h2 id="1-notation">1. Notation</h2> <p>Since I chose to make the simplest, dumbest possible interface the user would need to input their desired move by typing on the command line. Rather than invent some way for them to type in their move, I decided to use SAN notation.</p> <p>This is probably the 2nd most accessible way for a human to input their desired move - 2nd only to a graphic interface where you click/drag like chess.com. But I can’t be bothered right now to do that… maybe later. I figured we’d need SAN parsing down the line anyway, maybe to implement some learning from existing databases of famous chess games.</p> <h3 id="san-chess-notation">SAN Chess Notation</h3> <h4 id="example-san-moves">Example SAN moves:</h4> <ul> <li><code class="language-plaintext highlighter-rouge">e4</code> — pawn to e4</li> <li><code class="language-plaintext highlighter-rouge">Nf3</code> — knight to f3</li> <li><code class="language-plaintext highlighter-rouge">O-O</code> — kingside castling</li> <li><code class="language-plaintext highlighter-rouge">Qxe5+</code> — queen captures on e5 with check</li> </ul> <p>My validator uses a regular expression to confirm the move matches SAN format.</p> <h2 id="2-move-pattern">2. Move Pattern</h2> <p>This part seemed more fun to me - how can each piece move? How do we encode those rules? This is where the function comes in <code class="language-plaintext highlighter-rouge">pieceCanReach</code></p> <h3 id="pawn">Pawn</h3> <ul> <li>Can move 1 or 2 squares forward from the starting row</li> <li>Captures diagonally</li> </ul> <p>Later, I went back and tried to manage <em>en passant</em> … I also need to handle pawn promotion at some point.</p> <p>Does anyone really remember <em>en passant</em>? I don’t. But I suck at chess. That’s why I’m making a robot to beat my husband for me. I tried staring at the Wikipedia for a while but eventually it seemed to come down to this:</p> <ul> <li>The most important thing is that it can only happen after the <em>opponent</em> moves a pawn 2 squares forward. This is helpful to limit the number of chances for <em>passant</em></li> <li>Furthermore, the pawn (the target) that has moved 2 squares must also land beside your pawn.</li> <li>You can capture the target as if it had only moved one square</li> </ul> <p>To encode this is simple. You need only check that</p> <ul> <li>The attacker (your pawn) is capturing</li> <li>There is a target pawn next to it</li> <li>The target pawn has exactly two moves in its history, jumping up two rows</li> </ul> <h3 id="bishop">Bishop</h3> <ul> <li>Moves diagonally, must not be blocked</li> <li>Loops outward along diagonals until it hits something</li> </ul> <h3 id="knight">Knight</h3> <ul> <li>Classic L-shaped moves — always 2+1 in any direction</li> <li>Doesn’t care about obstructions</li> </ul> <h3 id="rook">Rook</h3> <ul> <li>Moves horizontally or vertically</li> <li>Must not be blocked</li> </ul> <h3 id="queen">Queen</h3> <ul> <li>Combines bishop and rook rules</li> </ul> <h3 id="king">King</h3> <ul> <li>Moves one square in any direction</li> <li>Castling is handled specially in the legality check</li> </ul> <h2 id="3-move-legality">3. Move Legality</h2> <p>There are a few rules that come to mind …</p> <ul> <li>You can’t move yourself into check</li> <li>If the player is currently in check, they must get themselves out of check <em>that</em> turn</li> <li>You can’t capture a piece of the same color</li> <li>You can’t castle yourself out of check</li> </ul> <p>👉 Follow along with my progress on GitHub: <a href="https://github.com/suchkristenwow/chessBot">chessBot</a></p>]]></content><author><name></name></author><category term="side-projects"/><category term="chess-bot"/><category term="side-project"/><category term="cpp"/><summary type="html"><![CDATA[First pass at move validation in my C++ chess bot]]></summary></entry><entry><title type="html">The Beginning Begins</title><link href="https://alshedivat.github.io/blog/2025/theBeginning/" rel="alternate" type="text/html" title="The Beginning Begins"/><published>2025-04-23T12:26:16+00:00</published><updated>2025-04-23T12:26:16+00:00</updated><id>https://alshedivat.github.io/blog/2025/theBeginning</id><content type="html" xml:base="https://alshedivat.github.io/blog/2025/theBeginning/"><![CDATA[<h1 id="project-design-building-a-chess-bot-in-c">Project Design: Building a Chess Bot in C++</h1> <p>When I set out to build a chess bot to learn C++ better, I knew I had to start with the foundations: representing the <strong>pieces</strong>, the <strong>board</strong>, and the <strong>game manager</strong> which would be responsible for checking for the winner and managing turns. My goal wasn’t just to make it work—I wanted to build something modular, extensible, and readable.</p> <p>This post walks through how I structured the project in its first phase, and why.</p> <hr/> <h2 id="1-the-piece-class">1. The <code class="language-plaintext highlighter-rouge">Piece</code> Class</h2> <p>The first building block was the <code class="language-plaintext highlighter-rouge">Piece</code> class. Each piece in chess has a name (like <code class="language-plaintext highlighter-rouge">"pawn"</code>), a color (<code class="language-plaintext highlighter-rouge">"white"</code> or <code class="language-plaintext highlighter-rouge">"black"</code>), and a position on the board (both in algebraic notation and row/col index).</p> <p>Besides piece name and color I also added:</p> <ul> <li><code class="language-plaintext highlighter-rouge">hasMoved</code>: to help handle castling and initial pawn moves.</li> <li><code class="language-plaintext highlighter-rouge">moveHistory</code>: a vector of past positions, I only did this because I figured it would be useful for special rules like <strong>en passant</strong>.</li> <li><code class="language-plaintext highlighter-rouge">point_val</code>: rough valuation of the piece, for heuristic determination in the future.</li> </ul> <p>Here’s the basic constructor:</p> <div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Piece</span> <span class="p">{</span>
+<span class="nl">public:</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">name</span><span class="p">;</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">color</span><span class="p">;</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">displayName</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">point_val</span><span class="p">;</span>
+    <span class="kt">bool</span> <span class="n">hasMoved</span><span class="p">;</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">int</span><span class="o">&gt;&gt;</span> <span class="n">moveHistory</span><span class="p">;</span>
 
--  function FileListPrinter() {
-+  function FileListPrinter(config) {
-+    this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
+    <span class="n">Piece</span><span class="p">(</span><span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&amp;</span> <span class="n">name</span><span class="p">,</span>
+          <span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&amp;</span> <span class="n">color</span><span class="p">,</span>
+          <span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&amp;</span> <span class="n">displayName</span><span class="p">,</span>
+          <span class="kt">char</span> <span class="n">file</span><span class="p">,</span>
+          <span class="kt">int</span> <span class="n">rank</span><span class="p">,</span>
+          <span class="kt">int</span> <span class="n">point_val</span><span class="p">,</span>
+          <span class="kt">bool</span> <span class="n">hasMoved</span><span class="p">,</span>
+          <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">int</span><span class="o">&gt;&gt;</span> <span class="n">moveHistory</span><span class="p">);</span>
 
-   FileListPrinter.prototype.generateFileList = function(diffFiles) {
-@@ -38,5 +43,5 @@
-     });
-   };
+    <span class="n">Piece</span><span class="p">(</span><span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&amp;</span> <span class="n">name</span><span class="p">,</span>
+          <span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&amp;</span> <span class="n">color</span><span class="p">,</span>
+          <span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&amp;</span> <span class="n">displayName</span><span class="p">,</span>
+          <span class="kt">char</span> <span class="n">file</span><span class="p">,</span>
+          <span class="kt">int</span> <span class="n">rank</span><span class="p">,</span>
+          <span class="kt">int</span> <span class="n">point_val</span><span class="p">);</span>
+<span class="p">};</span>
+</code></pre></div></div> <p>One thing I learned here is how to write constructors and the utility of convenience constructors. Basically allowing you not have to re-write long constructor calls every time you init a piece.</p> <h2 id="2-the-board-class">2. The <code class="language-plaintext highlighter-rouge">Board</code> Class</h2> <p>This one is easy. You need only a grid of size 8x8. Then we iterate through, assigning pieces where they’re needed to spots in the grid. The main thing is being able to visualize it. I thought about implementing a cute interface in a window like chess.com but I can’t be bothered at this point so I went with a much more utilitarian approach where it’s just printed out on the command line after each turn (hence the display name proprerty in the piece class, which is “w_N” for white knight). This required a lot of fussing with spacing and printing out the rank/file such that they aligned with the rows/columns.</p> <p>I use shared pointers in the grid. What does that mean? Piece objects live on the heap and lets each piece maintain its own state (move history, color, etc.) without copying them over and over. It also means that, while the board owns the piece in the grid square, I can pass it to other functions, like a move validator wihout being concerned about ownership. I don’t have to worry about memory mangement either.</p> <h2 id="3-the-game-manager-class">3. The <code class="language-plaintext highlighter-rouge">Game Manager</code> Class</h2> <p>The GameManager handles the game loop: alternating turns, taking input, making computer moves, and printing the board. It manages whose turn it is and passes moves to the board for validation and execution.</p> <p>Initally, I just implemented a few functions; <code class="language-plaintext highlighter-rouge">start()</code>, <code class="language-plaintext highlighter-rouge">makeMove</code>, and the public properties; <code class="language-plaintext highlighter-rouge">currentTurn</code>, and <code class="language-plaintext highlighter-rouge">board</code>. Later, I implemented the necessary structure to check for a winner or stalemate, which is more complicated.</p> <hr/> <p>Once these were implemented, we could build and start printing out the board. At this point my main.cpp was just</p> <div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span><span class="o">*</span> <span class="n">argv</span><span class="p">[])</span> <span class="p">{</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">playerColor</span><span class="p">;</span>
+    <span class="k">while</span> <span class="p">(</span><span class="nb">true</span><span class="p">){</span>
+        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Choose your color (white/black) "</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+        <span class="n">std</span><span class="o">::</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">playerColor</span><span class="p">;</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">playerColor</span> <span class="o">==</span> <span class="s">"white"</span> <span class="o">||</span> <span class="n">playerColor</span> <span class="o">==</span> <span class="s">"black"</span><span class="p">){</span><span class="k">break</span><span class="p">;}</span>
+        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Invalid color. Please write white or black.</span><span class="se">\n</span><span class="s">"</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+    <span class="p">}</span>
 
--  module.exports.FileListPrinter = new FileListPrinter();
-+  module.exports.FileListPrinter = FileListPrinter;
- })();
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 9949e5fa..0dda08d7 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -8,18 +8,19 @@
- (function() {
-   var fs = require('fs');
-   var path = require('path');
--
-   var hogan = require('hogan.js');
+    <span class="n">GameManager</span> <span class="nf">game</span><span class="p">(</span><span class="n">playerColor</span><span class="p">);</span>
+    <span class="n">game</span><span class="p">.</span><span class="n">start</span><span class="p">();</span>
 
-   var hoganTemplates = require('./templates/diff2html-templates.js');
-
--  var templatesPath = path.resolve(__dirname, 'templates');
-+  var extraTemplates;
-
--  function HoganJsUtils() {
-+  function HoganJsUtils(configuration) {
-+    this.config = configuration || {};
-+    extraTemplates = this.config.templates || {};
-   }
-
--  HoganJsUtils.prototype.render = function(namespace, view, params, configuration) {
--    var template = this.template(namespace, view, configuration);
-+  HoganJsUtils.prototype.render = function(namespace, view, params) {
-+    var template = this.template(namespace, view);
-     if (template) {
-       return template.render(params);
-     }
-@@ -27,17 +28,16 @@
-     return null;
-   };
-
--  HoganJsUtils.prototype.template = function(namespace, view, configuration) {
--    var config = configuration || {};
-+  HoganJsUtils.prototype.template = function(namespace, view) {
-     var templateKey = this._templateKey(namespace, view);
-
--    return this._getTemplate(templateKey, config);
-+    return this._getTemplate(templateKey);
-   };
-
--  HoganJsUtils.prototype._getTemplate = function(templateKey, config) {
-+  HoganJsUtils.prototype._getTemplate = function(templateKey) {
-     var template;
-
--    if (!config.noCache) {
-+    if (!this.config.noCache) {
-       template = this._readFromCache(templateKey);
-     }
-
-@@ -53,6 +53,7 @@
-
-     try {
-       if (fs.readFileSync) {
-+        var templatesPath = path.resolve(__dirname, 'templates');
-         var templatePath = path.join(templatesPath, templateKey);
-         var templateContent = fs.readFileSync(templatePath + '.mustache', 'utf8');
-         template = hogan.compile(templateContent);
-@@ -66,12 +67,16 @@
-   };
-
-   HoganJsUtils.prototype._readFromCache = function(templateKey) {
--    return hoganTemplates[templateKey];
-+    return extraTemplates[templateKey] || hoganTemplates[templateKey];
-   };
-
-   HoganJsUtils.prototype._templateKey = function(namespace, view) {
-     return namespace + '-' + view;
-   };
-
--  module.exports.HoganJsUtils = new HoganJsUtils();
-+  HoganJsUtils.prototype.compile = function(templateStr) {
-+    return hogan.compile(templateStr);
-+  };
-+
-+  module.exports.HoganJsUtils = HoganJsUtils;
- })();
-diff --git a/src/html-printer.js b/src/html-printer.js
-index 585d5b66..13f83047 100644
---- a/src/html-printer.js
-+++ b/src/html-printer.js
-@@ -8,6 +8,7 @@
- (function() {
-   var LineByLinePrinter = require('./line-by-line-printer.js').LineByLinePrinter;
-   var SideBySidePrinter = require('./side-by-side-printer.js').SideBySidePrinter;
-+  var FileListPrinter = require('./file-list-printer.js').FileListPrinter;
-
-   function HtmlPrinter() {
-   }
-@@ -22,5 +23,10 @@
-     return sideBySidePrinter.generateSideBySideJsonHtml(diffFiles);
-   };
-
-+  HtmlPrinter.prototype.generateFileListSummary = function(diffJson, config) {
-+    var fileListPrinter = new FileListPrinter(config);
-+    return fileListPrinter.generateFileList(diffJson);
-+  };
-+
-   module.exports.HtmlPrinter = new HtmlPrinter();
- })();
-diff --git a/src/line-by-line-printer.js b/src/line-by-line-printer.js
-index b07eb53c..d230bedd 100644
---- a/src/line-by-line-printer.js
-+++ b/src/line-by-line-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'line-by-line';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -19,6 +20,9 @@
-
-   function LineByLinePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   LineByLinePrinter.prototype.makeFileDiffHtml = function(file, diffs) {
-diff --git a/src/side-by-side-printer.js b/src/side-by-side-printer.js
-index bbf1dc8d..5e3033b3 100644
---- a/src/side-by-side-printer.js
-+++ b/src/side-by-side-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'side-by-side';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -26,6 +27,9 @@
-
-   function SideBySidePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   SideBySidePrinter.prototype.makeDiffHtml = function(file, diffs) {
-diff --git a/test/file-list-printer-tests.js b/test/file-list-printer-tests.js
-index a502a46f..60ea3208 100644
---- a/test/file-list-printer-tests.js
-+++ b/test/file-list-printer-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
-
--var fileListPrinter = require('../src/file-list-printer.js').FileListPrinter;
-+var fileListPrinter = new (require('../src/file-list-printer.js').FileListPrinter)();
-
- describe('FileListPrinter', function() {
-   describe('generateFileList', function() {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 190bf6f8..3bb754ac 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
-
--var HoganJsUtils = require('../src/hoganjs-utils.js').HoganJsUtils;
-+var HoganJsUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)();
- var diffParser = require('../src/diff-parser.js').DiffParser;
-
- describe('HoganJsUtils', function() {
-@@ -21,16 +21,28 @@ describe('HoganJsUtils', function() {
-       });
-       assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should render view without cache', function() {
-       var result = HoganJsUtils.render('generic', 'empty-diff', {
-         contentClass: 'd2h-code-line',
-         diffParser: diffParser
-       }, {noCache: true});
--      assert.equal(emptyDiffHtml + '\n', result);
-+      assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should return null if template is missing', function() {
--      var result = HoganJsUtils.render('generic', 'missing-template', {}, {noCache: true});
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)({noCache: true});
-+      var result = hoganUtils.render('generic', 'missing-template', {});
-       assert.equal(null, result);
-     });
-+
-+    it('should allow templates to be overridden', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+
-+      var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-diff --git a/test/line-by-line-tests.js b/test/line-by-line-tests.js
-index 1cd92073..8869b3df 100644
---- a/test/line-by-line-tests.js
-+++ b/test/line-by-line-tests.js
-@@ -14,7 +14,7 @@ describe('LineByLinePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expected, fileHtml);
-     });
-@@ -422,7 +422,6 @@ describe('LineByLinePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                &lt;/tbody&gt;\n' +
-         '            &lt;/table&gt;\n' +
-         '        &lt;/div&gt;\n' +
-diff --git a/test/side-by-side-printer-tests.js b/test/side-by-side-printer-tests.js
-index 76625f8e..771daaa5 100644
---- a/test/side-by-side-printer-tests.js
-+++ b/test/side-by-side-printer-tests.js
-@@ -14,7 +14,7 @@ describe('SideBySidePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expectedRight, fileHtml.right);
-       assert.equal(expectedLeft, fileHtml.left);
-@@ -324,7 +324,6 @@ describe('SideBySidePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                    &lt;/tbody&gt;\n' +
-         '                &lt;/table&gt;\n' +
-         '            &lt;/div&gt;\n' +
-
-From f3cadb96677d0eb82fc2752dc3ffbf35ca9b5bdb Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sat, 15 Oct 2016 13:21:22 +0100
-Subject: [PATCH 2/2] Allow uncompiled templates
-
----
- README.md                 |  3 +++
- src/hoganjs-utils.js      |  7 +++++++
- test/hogan-cache-tests.js | 24 +++++++++++++++++++++++-
- 3 files changed, 33 insertions(+), 1 deletion(-)
-
-diff --git a/README.md b/README.md
-index 132c8a28..46909f25 100644
---- a/README.md
-+++ b/README.md
-@@ -98,6 +98,9 @@ The HTML output accepts a Javascript object with configuration. Possible options
-   - `synchronisedScroll`: scroll both panes in side-by-side mode: `true` or `false`, default is `false`
-   - `matchWordsThreshold`: similarity threshold for word matching, default is 0.25
-   - `matchingMaxComparisons`: perform at most this much comparisons for line matching a block of changes, default is `2500`
-+  - `templates`: object with previously compiled templates to replace parts of the html
-+  - `rawTemplates`: object with raw not compiled templates to replace parts of the html
-+  &gt; For more information regarding the possible templates look into [src/templates](https://github.com/rtfpessoa/diff2html/tree/master/src/templates)
-
- ## Diff2HtmlUI Helper
-
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 0dda08d7..b2e9c275 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -17,6 +17,13 @@
-   function HoganJsUtils(configuration) {
-     this.config = configuration || {};
-     extraTemplates = this.config.templates || {};
-+
-+    var rawTemplates = this.config.rawTemplates || {};
-+    for (var templateName in rawTemplates) {
-+      if (rawTemplates.hasOwnProperty(templateName)) {
-+        if (!extraTemplates[templateName]) extraTemplates[templateName] = this.compile(rawTemplates[templateName]);
-+      }
-+    }
-   }
-
-   HoganJsUtils.prototype.render = function(namespace, view, params) {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 3bb754ac..a34839c0 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -36,7 +36,7 @@ describe('HoganJsUtils', function() {
-       assert.equal(null, result);
-     });
-
--    it('should allow templates to be overridden', function() {
-+    it('should allow templates to be overridden with compiled templates', function() {
-       var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-
-       var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-@@ -44,5 +44,27 @@ describe('HoganJsUtils', function() {
-       var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-       assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-     });
-+
-+    it('should allow templates to be overridden with uncompiled templates', function() {
-+      var emptyDiffTemplate = '&lt;p&gt;&lt;/p&gt;';
-+
-+      var config = {rawTemplates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-+
-+    it('should allow templates to be overridden giving priority to compiled templates', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+      var emptyDiffTemplateUncompiled = '&lt;p&gt;Not used!&lt;/p&gt;';
-+
-+      var config = {
-+        templates: {'generic-empty-diff': emptyDiffTemplate},
-+        rawTemplates: {'generic-empty-diff': emptyDiffTemplateUncompiled}
-+      };
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is how you can display code diffs]]></summary></entry><entry><title type="html">a post with advanced image components</title><link href="https://alshedivat.github.io/blog/2024/advanced-images/" rel="alternate" type="text/html" title="a post with advanced image components"/><published>2024-01-27T11:46:00+00:00</published><updated>2024-01-27T11:46:00+00:00</updated><id>https://alshedivat.github.io/blog/2024/advanced-images</id><content type="html" xml:base="https://alshedivat.github.io/blog/2024/advanced-images/"><![CDATA[<p>This is an example post with advanced image components.</p> <h2 id="image-slider">Image Slider</h2> <p>This is a simple image slider. It uses the <a href="https://swiperjs.com/">Swiper</a> library. Check the <a href="https://swiperjs.com/demos">examples page</a> for more information of what you can achieve with it.</p> <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true"> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/9-480.webp 480w,/assets/img/9-800.webp 800w,/assets/img/9-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/9.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/7-480.webp 480w,/assets/img/7-800.webp 800w,/assets/img/7-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/7.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/8-480.webp 480w,/assets/img/8-800.webp 800w,/assets/img/8-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/8.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/10-480.webp 480w,/assets/img/10-800.webp 800w,/assets/img/10-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/10.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/12-480.webp 480w,/assets/img/12-800.webp 800w,/assets/img/12-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/12.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> </swiper-container> <h2 id="image-comparison-slider">Image Comparison Slider</h2> <p>This is a simple image comparison slider. It uses the <a href="https://img-comparison-slider.sneas.io/">img-comparison-slider</a> library. Check the <a href="https://img-comparison-slider.sneas.io/examples.html">examples page</a> for more information of what you can achieve with it.</p> <img-comparison-slider> <figure slot="first"> <picture> <source class="responsive-img-srcset" srcset="/assets/img/prof_pic-480.webp 480w,/assets/img/prof_pic-800.webp 800w,/assets/img/prof_pic-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/prof_pic.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> <figure slot="second"> <picture> <source class="responsive-img-srcset" srcset="/assets/img/prof_pic_color-480.webp 480w,/assets/img/prof_pic_color-800.webp 800w,/assets/img/prof_pic_color-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/prof_pic_color.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </img-comparison-slider>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="images"/><summary type="html"><![CDATA[this is what advanced image components could look like]]></summary></entry><entry><title type="html">a post with vega lite</title><link href="https://alshedivat.github.io/blog/2024/vega-lite/" rel="alternate" type="text/html" title="a post with vega lite"/><published>2024-01-27T00:20:00+00:00</published><updated>2024-01-27T00:20:00+00:00</updated><id>https://alshedivat.github.io/blog/2024/vega-lite</id><content type="html" xml:base="https://alshedivat.github.io/blog/2024/vega-lite/"><![CDATA[<p>This is an example post with some <a href="https://vega.github.io/vega-lite/">vega lite</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">vega_lite
-</span><span class="sb">{
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A dot plot showing each movie in the database, and the difference from the average movie rating. The display is sorted by year to visualize everything in sequential order. The graph is for all Movies before 2019.",
-  "data": {
-    "url": "https://raw.githubusercontent.com/vega/vega/main/docs/data/movies.json"
-  },
-  "transform": [
-    {"filter": "datum['IMDB Rating'] != null"},
-    {"filter": {"timeUnit": "year", "field": "Release Date", "range": [null, 2019]}},
-    {
-      "joinaggregate": [{
-        "op": "mean",
-        "field": "IMDB Rating",
-        "as": "AverageRating"
-      }]
-    },
-    {
-      "calculate": "datum['IMDB Rating'] - datum.AverageRating",
-      "as": "RatingDelta"
-    }
-  ],
-  "mark": "point",
-  "encoding": {
-    "x": {
-      "field": "Release Date",
-      "type": "temporal"
-    },
-    "y": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "title": "Rating Delta"
-    },
-    "color": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "scale": {"domainMid": 0},
-      "title": "Rating Delta"
-    }
-  }
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-vega_lite">{
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A dot plot showing each movie in the database, and the difference from the average movie rating. The display is sorted by year to visualize everything in sequential order. The graph is for all Movies before 2019.",
-  "data": {
-    "url": "https://raw.githubusercontent.com/vega/vega/main/docs/data/movies.json"
-  },
-  "transform": [
-    {"filter": "datum['IMDB Rating'] != null"},
-    {"filter": {"timeUnit": "year", "field": "Release Date", "range": [null, 2019]}},
-    {
-      "joinaggregate": [{
-        "op": "mean",
-        "field": "IMDB Rating",
-        "as": "AverageRating"
-      }]
-    },
-    {
-      "calculate": "datum['IMDB Rating'] - datum.AverageRating",
-      "as": "RatingDelta"
-    }
-  ],
-  "mark": "point",
-  "encoding": {
-    "x": {
-      "field": "Release Date",
-      "type": "temporal"
-    },
-    "y": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "title": "Rating Delta"
-    },
-    "color": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "scale": {"domainMid": 0},
-      "title": "Rating Delta"
-    }
-  }
-}
-</code></pre> <p>This plot supports both light and dark themes.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[this is what included vega lite code could look like]]></summary></entry></feed>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div> <p>Which simply yields</p> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/basicInterface-480.webp 480w,/assets/img/basicInterface-800.webp 800w,/assets/img/basicInterface-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/basicInterface.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="GUI" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> <figcaption class="caption">For now, this is our chess board.</figcaption> </figure> <p>👉 Follow along with my progress on GitHub: <a href="https://github.com/suchkristenwow/chessBot">chessBot</a></p>]]></content><author><name></name></author><category term="side-projects"/><category term="chess-bot"/><category term="side-project"/><category term="cpp"/><summary type="html"><![CDATA[Starting a side project to explore C++ best practices and RL]]></summary></entry><entry><title type="html">Why ChessBot?</title><link href="https://alshedivat.github.io/blog/2025/whyChessBot/" rel="alternate" type="text/html" title="Why ChessBot?"/><published>2025-04-14T16:40:16+00:00</published><updated>2025-04-14T16:40:16+00:00</updated><id>https://alshedivat.github.io/blog/2025/whyChessBot</id><content type="html" xml:base="https://alshedivat.github.io/blog/2025/whyChessBot/"><![CDATA[<p>After wrapping up my PhD in March 2025, I found myself with some downtime. I wanted to take on an ambitious side project to keep me entertained while I looked for a job - something that would challenge my understanding of C++ and give me space to explore best practices outside the context of research or systems engineering.</p> <p>The idea came from a classical technical interview prompt: <em>build a tic-tac-toe game in C++</em>. That basic idea sparked a much bigger one—why not take it (several steps) further and build a full chess engine?</p> <h3 id="why-chess">Why Chess?</h3> <p>Chess offers a rich design space:</p> <ul> <li>A complex set of rules to encode</li> <li>Real-time interaction between a backend and a GUI</li> <li>Opportunities to implement search and reinforcement learning</li> <li>A way to practice interfacing between different components of a software stack</li> </ul> <h3 id="why-now">Why Now?</h3> <p>During the Restorebot project, we initially tried using reinforcement learning to guide seeding decisions in degraded rangelands. But we quickly hit a wall: <strong>none of the microsites we seeded grew that first season</strong>, which meant there was no reward signal to explore. That failure led us to pivot hard toward perception, vision, and long-term SLAM. See our ISER paper if you don’t know what I’m talking about (https://arxiv.org/abs/2312.07724).</p> <p>Even though RL has questionable applicability in some industrial contexts—clients generally aren’t interested in black-box solutions—I’m still interested in its potential. And besides, chess is a really rich space to explore some other ML techniques as well. We’ll see where it takes me!</p> <h3 id="what-i-hope-to-learn">What I Hope to Learn</h3> <ul> <li>Solid C++ software design, with an emphasis on interfaces and separation of concerns</li> <li>Real-time communication between a backend engine and a frontend GUI</li> <li>Learning more about RL and other ML techniques for decision-making in game environments</li> <li>Managing a medium-size side project like a real software engineer would</li> </ul> <hr/> <p>I’m hoping this series will be a useful log of what I’m building, where I hit snags, and what I learn along the way. If nothing else, it’ll be a fun challenge—and a good excuse to play more chess. And I hope it can be helpful or interesting to someone out there.</p> <p>👉 Follow along with my progress on GitHub: <a href="https://github.com/suchkristenwow/chessBot">chessBot</a></p>]]></content><author><name></name></author><category term="side-projects"/><category term="chess-bot"/><category term="side-project"/><category term="cpp"/><category term="reinforcement-learning"/><summary type="html"><![CDATA[Starting a side project to explore C++ best practices and RL]]></summary></entry></feed>
