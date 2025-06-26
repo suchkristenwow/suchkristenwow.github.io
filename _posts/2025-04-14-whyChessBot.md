@@ -3,7 +3,7 @@ layout: post
 title: "Why ChessBot?"
 date: 2025-04-14 16:40:16
 description: "Starting a side project to explore C++ best practices and RL"
-tags: [chess-bot, side-project, cpp, reinforcement-learning]
+tags: [chess-bot, cpp, reinforcement-learning]
 categories: side-projects
 ---
 

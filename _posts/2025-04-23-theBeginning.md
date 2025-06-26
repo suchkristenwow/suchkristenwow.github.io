@@ -3,7 +3,7 @@ layout: post
 title: "The Beginning Begins"
 date: 2025-04-23 12:26:16
 description: "Starting a side project to explore C++ best practices and RL"
-tags: [chess-bot, side-project, cpp]
+tags: [chess-bot, cpp]
 categories: side-projects
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "The Rules of the Game"
 date: 2025-05-05 18:06:12
 description: "First pass at move validation in my C++ chess bot"
-tags: [chess-bot, side-project, cpp]
+tags: [chess-bot, cpp]
 categories: side-projects
 ---
 
