@@ -35,6 +35,6 @@ Even though RL has questionable applicability in some industrial contexts—clie
 
 ---
 
-I’m hoping this series will be a useful log of what I’m building, where I hit snags, and what I learn along the way. If nothing else, it'll be a fun challenge—and a good excuse to play more chess. And I hope it can be helpful or interesting to someone out there.
+I’m hoping this series will be a useful log of what I’m building, and what I learn along the way. If nothing else, I hope it can be helpful or interesting to someone out there.
 
 👉 Follow along with my progress on GitHub: [chessBot](https://github.com/suchkristenwow/chessBot)

@@ -13,7 +13,7 @@ This part of the project seemed trickier. I figured there are 3 parts of validty
 
 ## 1. Notation
 
-Since I chose to make the simplest, dumbest possible interface the user would need to input their desired move by typing on the command line. Rather than invent some way for them to type in their move, I decided to use SAN notation.
+Since I chose to make the simplest, dumbest possible interface the user would need to input their desired move by typing on the command line. Rather than invent some way for them to type in their move using matrix coordinates, I decided to use SAN notation.
 
 This is probably the 2nd most accessible way for a human to input their desired move - 2nd only to a graphic interface where you click/drag like chess.com. But I can't be bothered right now to do that... maybe later. I figured we'd need SAN parsing down the line anyway, maybe to implement some learning from existing databases of famous chess games.
 
@@ -50,6 +50,8 @@ To encode this is simple. You need only check that
 - The attacker (your pawn) is capturing
 - There is a target pawn next to it
 - The target pawn has exactly two moves in its history, jumping up two rows
+
+The rest of the pieces are more simple
 
 ### Bishop
 
