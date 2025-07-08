@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "A Big-Picture History of Chess Bots"
-date: 2025-06-18 11:30:59
+date: 2025-07-07 14:06:59
 description: "I delve into the world of chess bots, beginning with the classics."
-tags: [chess-bot, cpp]
+tags: [chess-bot, cpp, AI-history]
 categories: side-projects
 ---
 
