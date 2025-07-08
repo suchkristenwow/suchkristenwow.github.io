@@ -39,7 +39,7 @@ This part seemed more fun to me - how can each piece move? How do we encode thos
 
 Later, I went back and tried to manage _en passant_ ... I also need to handle pawn promotion at some point.
 
-Does anyone really remember _en passant_? I don't. But I suck at chess. That's why I'm making a robot to beat my husband for me. I tried staring at the Wikipedia for a while but eventually it seemed to come down to this:
+Does anyone really remember how _en passant_ is supposed to work? I don't. But I suck at chess. That's why I'm making a robot to beat my husband for me. I tried staring at the Wikipedia for a while but eventually it seemed to come down to this:
 
 - The most important thing is that it can only happen after the _opponent_ moves a pawn 2 squares forward. This is helpful to limit the number of chances for _passant_
 - Furthermore, the pawn (the target) that has moved 2 squares must also land beside your pawn.
