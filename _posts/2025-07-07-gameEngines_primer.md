@@ -17,6 +17,16 @@ I really like reading about old chess bots, the people behind them, and how we g
 
 I feel that sparkle of romanticism when I watch movies like _Hidden Figures_ or the _The Imitation Game_. I feel it standing in the Space Center in Houston and see the desks of the CapCom just as they were in July 1969, littered with cigarette butts. They did these things _because_ they were hard (or as I would like to think, useful or good).
 
+In case you still can't picture it, I've been reading _Hackers: Heroes of the Computer Revoution_ by Steve Levy and at the very front of the book is an index of these people with such clever and charming descriptions as:
+
+> **Bob Davis** – Left a job in a liquor store to become bestselling author of the Sierra On-Line computer game _Ulysses and the Golden Fleece_. Success was his downfall.
+>
+> **John Draper** – The notorious "Captain Crunch" who fearlessly explored phone systems, was jailed, and later hacked microcomputers. Cigarettes made him violent.
+>
+> **Warren Schwader** – Big blond hacker from rural Wisconsin who went from the assembly line to software stardom, but couldn't reconcile the shift with his devotion to Jehovah’s Witnesses.
+
+Who wouldn't aspire to be like these guys?? Sadly, I feel that characters such as these are a product of a bygone era.
+
 At least from what I've observed in the academic world, the incentives reward what’s publishable—not necessarily what’s meaningful or important. It's often a better strategy to repackage an existing result into multiple papers than to aim to find where our skills and resources can be expanded on to meet big, important challenges. That’s why I think academic robotics tends to focus on what we can _already_ do rather than what we _should_ do. Not always, but often.
 
 As for industry, I’m both amazed and disillusioned by the scale of models coming out of companies like Meta and Google. The results are impressive, but the reliance on massive private datasets and million dollar compute budgets feels disconnected from the heart of open scientific inquiry. It lacks panache for me.
@@ -49,7 +59,7 @@ Obviously, material plays in a part in it, but it is only one aspect, an arguabl
 
 Alpha-beta pruning remains key to chess programming to this day so it's important to understand. It's an optimization on minimax that works by eliminating branches that don't affect the final decision.
 
-In the best case, alpha-beta reduces the number of nodes from $O(b^d)$ to $\sqrt{b^d}$ where b is the branching factor (35 for the number of legal moves/turn) and d is the search depth (how many turns or plies we want to evaluate in the future). Simply put, we don't waste time on considering downstream decisions of bad moves. If move A results in our position eval increasing by 1, and move B results in our position eval increasing by 5 but the subsequent result of move B is check mate, we don't need to evaluate outcomes from playing move B.
+In the best case, alpha-beta reduces the number of nodes from $O(b^d)$ to $O(\sqrt{b^d})$ where b is the branching factor (35 for the number of legal moves/turn) and d is the search depth (how many turns or plies we want to evaluate in the future). Simply put, we don't waste time on considering downstream decisions of bad moves. If move A results in our position eval increasing by 1, and move B results in our position eval increasing by 5 but the subsequent result of move B is check mate, we don't need to evaluate outcomes from playing move B.
 
 #### Mac Hack
 
