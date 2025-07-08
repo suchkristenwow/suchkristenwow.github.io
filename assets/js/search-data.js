@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-game-over",
+        },{id: "post-pgn-replay",
+        
+          title: "PGN Replay",
+        
+        description: "Using actual games to check move validation",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/pgn_replay/";
+          
+        },
+      },{id: "post-game-over",
         
           title: "game over",
         
@@ -53,6 +64,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/gameOver/";
+          
+        },
+      },{id: "post-a-big-picture-history-of-chess-bots",
+        
+          title: "A Big-Picture History of Chess Bots",
+        
+        description: "I delve into the world of chess bots, beginning with the classics.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/gameEngines_primer/";
           
         },
       },{id: "post-how-i-learned-to-stop-worrying-and-love-the-unit-test",
