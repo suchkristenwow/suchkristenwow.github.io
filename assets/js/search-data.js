@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-a-big-picture-history-of-chess-bots",
+        },{id: "post-a-chess-bot-is-born",
+        
+          title: "A chess bot is born",
+        
+        description: "It does make legal moves... could be groovier.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/heuristicEngine/";
+          
+        },
+      },{id: "post-a-big-picture-history-of-chess-bots",
         
           title: "A Big-Picture History of Chess Bots",
         
