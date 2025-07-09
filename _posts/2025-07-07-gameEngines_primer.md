@@ -29,8 +29,6 @@ Who wouldn't aspire to be like these guys?? Sadly, I feel that characters such a
 
 At least from what I've observed in the academic world, the incentives reward what’s publishable—not necessarily what’s meaningful or important. It's often a better strategy to repackage an existing result into multiple papers than to aim to find where our skills and resources can be expanded on to meet big, important challenges. That’s why I think academic robotics tends to focus on what we can _already_ do rather than what we _should_ do. Not always, but often.
 
-As for industry, I’m both amazed and disillusioned by the scale of models coming out of companies like Meta and Google. The results are impressive, but the reliance on massive private datasets and million dollar compute budgets feels disconnected from the heart of open scientific inquiry. It lacks panache for me.
-
 Lest this devolves into one of those recipe blogs that expounds the developer's entire family history only to tell you how to hard-boil an egg, I'll leave it at that. For now I want to learn more about how they did what they did in those supposed ``glory days".[^1]
 
 ### Early Chess Engines (1950s-1980s)
