@@ -18,11 +18,11 @@ We introduce a framework that fuses detections and beliefs across robots with di
 
 - **Heterogeneous Sensor Fusion**: Each robot contributes observations from its own sensor suite, such as stereo cameras, lidar, or GPS. Our method fuses these disparate sources into a unified, probabilistic map.
 
-- **Joint Persistence Filtering**: The system models how features appear, change, or disappear over time. It performs joint filtering over multiple detections to improve confidence and handle occlusions or seasonal variation.
+- **Joint Persistence Filtering**: The system models how features appear, change, or disappear over time. It performs joint filtering over multiple detections to improve confidence and handle occlusions.
 
 - **Belief Propagation Across Agents**: By maintaining local beliefs and sharing relevant cliques between agents, the system avoids duplication and improves landmark persistence estimation without requiring identical observations.
 
-- **Dynamic Feature Management**: Unlike traditional SLAM, which discards dynamic elements as outliers, our system identifies and models dynamics explicitly—including time-varying features like vehicles, pedestrians, or vegetation.
+- **Dynamic Feature Management**: Unlike traditional SLAM, which discards dynamic elements as outliers, our system identifies and models dynamics explicitly—including time-varying features such as vehicles.
 
 ## Experiments and Evaluation
 
@@ -37,7 +37,7 @@ My contribution was implementing the experiments using 2 of our Husky platforms 
 ## Applications
 
 - **Search and Rescue**: Ground and aerial robots can jointly track missing persons or hazards in changing environments.
-- **Precision Agriculture**: Different robots monitor crop growth and health, even as seasons change or field conditions vary.
+- **Precision Agriculture**: Different robots monitor crop growth and health, even as seasons change or field conditions vary. It's natural to imagine a heterogenous team consisting of a aerial robot for high-level monitoring paired with ground agents who perform interventions, for example.
 - **Autonomous Construction**: Mixed fleets of inspection and manipulation robots maintain consistent environmental models over time.
 
 ## Publication
